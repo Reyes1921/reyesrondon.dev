@@ -1,5 +1,7 @@
-export const Buttons = () => {
-  const items = [
+import {Nav} from "../nav/Nav"
+
+export const Footer = () => {
+  const icons = [
     {
       path: "https://github.com/Reyes1921",
       src: "/github.svg",
@@ -25,23 +27,22 @@ export const Buttons = () => {
       alt: '"cv logo',
     },
   ]
-
   return (
-    <div className="flex flex-cols-2 md:flex-row justify-between mt-3">
-      {items.map((item) => (
-        <a href={item.path} target="_blank">
-          <button className="flex gap-1 my-1 cursor-pointer text-white font-semibold bg-gradient-to-r from-gray-800 to-black px-2 md:px-3 py-2 text-xs md:text-sm md:py-3 rounded-full border border-gray-600 hover:scale-105 duration-200 hover:text-gray-500 hover:border-gray-800 hover:from-black hover:to-gray-900">
+    <footer className="flex justify-between w-full mt-5 px-10 py-5">
+      <div className="flex">
+        {icons.map((icon) => (
+          <a href={icon.path} target="_blank" className="p-2">
             <img
-              src={item.src}
+              src={icon.src}
               height="12"
               width="20"
               className="filter invert"
-              alt={item.alt}
+              alt={icon.alt}
             />
-            {item.title}
-          </button>
-        </a>
-      ))}
-    </div>
+          </a>
+        ))}
+      </div>
+      <p className="p-2"> Reyes Rondon</p>
+    </footer>
   )
 }

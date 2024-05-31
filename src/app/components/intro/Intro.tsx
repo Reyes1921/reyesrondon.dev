@@ -2,13 +2,13 @@ import {Buttons} from "./Buttons"
 
 export const Intro = () => {
   return (
-    <article className="flex items-center justify-center flex-row">
-      <div className="pr-10 w-3/4">
-        <h1 className="text-4xl md:text-5xl pb-2">Reyes Rondón</h1>
-        <span className="flex justify-between pb-4 text-lime-600 text-xl">
-          <p>Ingeniero en informática</p> - <p>Desarrollador Front end</p>
+    <article className="flex items-center justify-center flex-col-reverse md:flex-row">
+      <div className="p-10 md:pr-10 md:w-3/4">
+        <h1 className="text-4xl md:text-5xl pb-2 font-bold">Reyes Rondón</h1>
+        <span className="flex justify-between flex-col md:flex-row pb-4 text-lime-600 text-xl">
+          <p>Ingeniero en informática</p>
         </span>
-        <p className="text-start text-2xl">
+        <p className="text-start text-xl">
           Tengo más de 4 años de experiencia en el desarrollo y mantenimiento de
           aplicaciones web con <span className="spanColor">React</span>,
           <span className="spanColor"> PHP</span>,
@@ -17,7 +17,7 @@ export const Intro = () => {
         </p>
         <Buttons />
       </div>
-      <div className="w-2/4">
+      <div className="w-3/6 md:w-2/6 md:mb-0">
         <img
           src="/reyes-rondon.jpg"
           alt="imagen de Reyes Rondon"
