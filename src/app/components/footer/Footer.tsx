@@ -42,7 +42,7 @@ export const Footer = () => {
           </a>
         ))}
       </div>
-      <p className="p-2"> Reyes Rondon</p>
+      <p className="p-2"> Reyes Rondón</p>
     </footer>
   )
 }

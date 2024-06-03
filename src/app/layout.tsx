@@ -5,7 +5,7 @@ import "./globals.css"
 const inter = Nunito({subsets: ["latin"], style: ["normal", "italic"]})
 
 export const metadata: Metadata = {
-  title: "Porfolio de Reyes Rondón - Desarrollador y Programador Web",
+  title: "Portafolio de Reyes Rondón - Desarrollador y Programador Web",
   description: "Fronted developer",
 }
 

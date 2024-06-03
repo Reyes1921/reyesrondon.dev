@@ -17,14 +17,6 @@ export default function Home() {
         <Project />
         <Skills />
         <About />
-        <Experiencie />
-        <Project />
-        <Skills />
-        <About />
-        <Experiencie />
-        <Project />
-        <Skills />
-        <About />
         <Footer />
       </div>
     </main>
