@@ -2,6 +2,7 @@
 
 import Atropos from "atropos/react"
 import "atropos/css"
+import Image from "next/image"
 
 export const Skills = () => {
   const frontend = [
@@ -150,7 +151,9 @@ export const Skills = () => {
                   key={icon.title}
                   className="flex flex-col flex-justify items-center p-4"
                 >
-                  <img
+                  <Image
+                    width={150}
+                    height={150}
                     src={icon.path}
                     className="w-7 md:w-10 color-[#F7DF1E]"
                     alt={icon.alt}
@@ -173,7 +176,9 @@ export const Skills = () => {
                       key={icon.title}
                       className="flex flex-col flex-justify items-center p-4"
                     >
-                      <img
+                      <Image
+                        width={150}
+                        height={150}
                         src={icon.path}
                         className="w-7 md:w-10 color-[#F7DF1E]"
                         alt={icon.alt}
@@ -195,7 +200,9 @@ export const Skills = () => {
                       key={icon.title}
                       className="flex flex-col flex-justify items-center p-4"
                     >
-                      <img
+                      <Image
+                        width={150}
+                        height={150}
                         src={icon.path}
                         className="w-7 md:w-10 color-[#F7DF1E]"
                         alt={icon.alt}
@@ -217,7 +224,9 @@ export const Skills = () => {
                       key={icon.title}
                       className="flex flex-col flex-justify items-center p-4"
                     >
-                      <img
+                      <Image
+                        width={150}
+                        height={150}
                         src={icon.path}
                         className="w-7 md:w-10 color-[#F7DF1E]"
                         alt={icon.alt}
@@ -240,7 +249,9 @@ export const Skills = () => {
                   key={icon.title}
                   className="flex flex-col flex-justify items-center p-4"
                 >
-                  <img
+                  <Image
+                    width={150}
+                    height={150}
                     src={icon.path}
                     className="w-7 md:w-10 color-[#F7DF1E]"
                     alt={icon.alt}

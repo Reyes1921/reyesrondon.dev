@@ -16,7 +16,7 @@ export const Nav = () => {
   return (
     <ul className="flex">
       {items.map((item) => (
-        <li>
+        <li key={item.title}>
           <a href={item.path} className="text-sm md:text-xl p-3 md:p5">
             {item.title}
           </a>

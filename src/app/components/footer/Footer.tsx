@@ -1,4 +1,4 @@
-import {Nav} from "../nav/Nav"
+import Image from "next/image"
 
 export const Footer = () => {
   const icons = [
@@ -31,8 +31,8 @@ export const Footer = () => {
     <footer className="flex justify-between w-full mt-5 px-10 py-5">
       <div className="flex">
         {icons.map((icon) => (
-          <a href={icon.path} target="_blank" className="p-2">
-            <img
+          <a href={icon.path} key={icon.alt} target="_blank" className="p-2">
+            <Image
               src={icon.src}
               height="12"
               width="20"

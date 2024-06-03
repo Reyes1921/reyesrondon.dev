@@ -1,3 +1,4 @@
+import Image from "next/image"
 import {Buttons} from "./Buttons"
 
 export const Intro = () => {
@@ -18,7 +19,9 @@ export const Intro = () => {
         <Buttons />
       </div>
       <div className="w-3/6 md:w-2/6 md:mb-0">
-        <img
+        <Image
+          width={150}
+          height={150}
           src="/reyes-rondon.webp"
           alt="imagen de Reyes Rondon"
           className=" rounded-full border-4 border-lime-600 w-4/5"
