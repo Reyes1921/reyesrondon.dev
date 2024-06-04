@@ -167,7 +167,7 @@ export const Skills = () => {
               <h2 className="text-center text-lime-600 text-3xl font-bold mb-4 mt-5 pr-2">
                 Backend
               </h2>
-              <Atropos className="my-atropos mt-5 ">
+              <Atropos className="my-atropos mt-5" rotateTouch="scroll-y">
                 <div className="flex flex-row justify-around md:justify-between items-center backdrop-brightness-75 border border-lime-600 rounded-xl">
                   {backend.map((icon) => (
                     <div
@@ -191,7 +191,7 @@ export const Skills = () => {
               <h2 className="text-center text-lime-600 text-3xl font-bold mb-4 mt-5">
                 Bases de Datos
               </h2>
-              <Atropos className="my-atropos mt-5">
+              <Atropos className="my-atropos mt-5" rotateTouch="scroll-y">
                 <div className="flex flex-row justify-around md:justify-between items-center backdrop-brightness-75 border border-lime-600 rounded-xl">
                   {bd.map((icon) => (
                     <div
@@ -215,7 +215,7 @@ export const Skills = () => {
               <h2 className="text-center text-lime-600 text-3xl font-bold mb-4 mt-5 pr-2">
                 Testing
               </h2>
-              <Atropos className="my-atropos mt-5">
+              <Atropos className="my-atropos mt-5" rotateTouch="scroll-y">
                 <div className="flex flex-row justify-around items-center backdrop-brightness-75 border border-lime-600 rounded-xl">
                   {testing.map((icon) => (
                     <div
@@ -240,7 +240,7 @@ export const Skills = () => {
           <h2 className="text-center text-lime-600 text-3xl font-bold mb-4 mt-5 pr-2">
             Herramientas
           </h2>
-          <Atropos className="my-atropos mt-5">
+          <Atropos className="my-atropos mt-5" rotateTouch="scroll-y">
             <div className="grid md:flex grid-cols-3 md:flex-row justify-between items-center backdrop-brightness-75 border border-lime-600 rounded-xl">
               {tools.map((icon) => (
                 <div

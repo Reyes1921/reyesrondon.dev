@@ -19,7 +19,7 @@ export const About = () => {
             className="rounded-full border-4 border-lime-600 md:mr-6"
           />
         </div>
-        <p className="text-xl text-left">
+        <p className="text-xl text-center md:text-left">
           Ingeniero en informática con más de 4 años de experiencia en el
           desarrollo y mantenimiento de aplicaciones web con
           <span className="spanColor"> React</span>,
