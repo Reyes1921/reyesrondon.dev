@@ -19,3 +19,7 @@ body {
 .spanColor {
   color: rgb(101 163 13);
 }
+
+.imgAbout {
+  shape-outside: circle(50%);
+}

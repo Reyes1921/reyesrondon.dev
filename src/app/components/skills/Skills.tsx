@@ -132,14 +132,13 @@ export const Skills = () => {
 
   return (
     <article className="flex items-center justify-center  md:flex-row">
-      <div className="p-10 md:pr-10 w-full">
+      <div className="p-10 w-full">
         <h2
           id="projects"
           className="text-4xl text-center md:text-5xl pb-2 font-bold"
         >
           Tecnologías
         </h2>
-
         <div className="">
           <h2 className="text-center text-lime-600 text-3xl font-bold mb-4 mt-5">
             Frontend
@@ -163,7 +162,6 @@ export const Skills = () => {
               ))}
             </div>
           </Atropos>
-
           <div className="flex flex-col md:flex-row justify-between">
             <div>
               <h2 className="text-center text-lime-600 text-3xl font-bold mb-4 mt-5 pr-2">

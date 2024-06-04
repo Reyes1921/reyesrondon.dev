@@ -4,7 +4,7 @@ import {Buttons} from "./Buttons"
 export const Intro = () => {
   return (
     <article className="flex items-center justify-center flex-col-reverse md:flex-row">
-      <div className="p-10 md:pr-10 md:w-3/4">
+      <div className="p-10 md:w-3/4">
         <h1 className="text-4xl md:text-5xl pb-2 font-bold">Reyes Rondón</h1>
         <span className="flex justify-between flex-col md:flex-row pb-4 text-lime-600 text-xl">
           <p>Ingeniero en Informática</p>
@@ -18,7 +18,7 @@ export const Intro = () => {
         </p>
         <Buttons />
       </div>
-      <div className="w-3/6 md:w-2/6 md:mb-0">
+      <div className="flex justify-center md:justify-start w-3/6 md:w-2/6 md:mb-0">
         <Image
           width={150}
           height={150}
