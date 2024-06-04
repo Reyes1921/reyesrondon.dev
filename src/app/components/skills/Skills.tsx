@@ -143,7 +143,7 @@ export const Skills = () => {
           <h2 className="text-center text-lime-600 text-3xl font-bold mb-4 mt-5">
             Frontend
           </h2>
-          <Atropos className="my-atropos mt-5">
+          <Atropos className="my-atropos mt-5" rotateTouch="scroll-y">
             <div className="grid md:flex grid-cols-3 md:flex-row justify-around items-center backdrop-brightness-75 border border-lime-600 rounded-xl">
               {frontend.map((icon) => (
                 <div

@@ -29,7 +29,7 @@ export const Footer = () => {
   ]
   return (
     <footer className="w-full md:max-w-[850px] mx-auto">
-      <div className="container flex justify-between items-center p-8">
+      <div className="container flex justify-between items-center p-8 pt-0">
         <div className="flex">
           {icons.map((icon) => (
             <a href={icon.path} key={icon.alt} target="_blank" className="p-2">
