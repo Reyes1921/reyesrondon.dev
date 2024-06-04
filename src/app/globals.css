@@ -23,3 +23,43 @@ body {
 .imgAbout {
   shape-outside: circle(50%);
 }
+
+/* .main-heading {
+  position: relative;
+  font-weight: bold;
+  letter-spacing: 7px;
+  overflow: hidden;
+  border-right: 2px solid hsl(0, 0%, 80%);
+  white-space: nowrap;
+  animation: typewriter 3s steps(44) 1s 1 normal both,
+    blinkTextCursor 1000ms infinite;
+}
+
+@keyframes typewriter {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 510px;
+  }
+}
+@keyframes blinkTextCursor {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: rgb(101 163 13);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  @keyframes typewriter {
+    from {
+      width: 0%;
+    }
+    to {
+      width: 410px;
+    }
+  }
+} */

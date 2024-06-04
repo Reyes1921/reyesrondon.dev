@@ -5,7 +5,7 @@ export const Intro = () => {
   return (
     <article className="flex items-center justify-center flex-col-reverse md:flex-row">
       <div className="p-10 md:w-11/12 text-center mx-auto">
-        <h1 className="text-4xl md:text-5xl pb-2 font-bold text-center md:text-left">
+        <h1 className="text-4xl md:text-5xl pb-2 font-bold text-center md:text-left main-heading">
           Reyes Rondón
         </h1>
         <span className="flex justify-between flex-col md:flex-row pb-4 text-lime-600 text-xl">
