@@ -2,7 +2,7 @@ import Image from "next/image"
 
 export const About = () => {
   return (
-    <article className="flex flex-col items-center justify-center mb-0 md:mb-10">
+    <article className="flex flex-col items-center justify-center mb-1 md:mb-10">
       <h2
         id="about"
         className="text-4xl text-center md:text-5xl pb-2 font-bold"
@@ -16,10 +16,10 @@ export const About = () => {
             height={150}
             src="/reyes-rondon.webp"
             alt="imagen de Reyes Rondon"
-            className="rounded-full border-4 border-lime-600 mr-6"
+            className="rounded-full border-4 border-lime-600 md:mr-6"
           />
         </div>
-        <p className="text-xl">
+        <p className="text-xl text-center">
           Ingeniero en informática con más de 4 años de experiencia en el
           desarrollo y mantenimiento de aplicaciones web con React, PHP, MySQL y
           WordPress, desde marcas personales hasta tiendas online. Tengo

@@ -14,7 +14,7 @@ export const Nav = () => {
     },
   ]
   return (
-    <ul className="flex">
+    <ul className="flex justify-center">
       {items.map((item) => (
         <li key={item.title}>
           <a href={item.path} className="text-sm md:text-xl p-3 md:p5">

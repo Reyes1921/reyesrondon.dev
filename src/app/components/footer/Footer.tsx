@@ -28,21 +28,23 @@ export const Footer = () => {
     },
   ]
   return (
-    <footer className="flex justify-between w-full mt-5 px-10 py-5">
-      <div className="flex">
-        {icons.map((icon) => (
-          <a href={icon.path} key={icon.alt} target="_blank" className="p-2">
-            <Image
-              src={icon.src}
-              height="12"
-              width="20"
-              className="filter invert"
-              alt={icon.alt}
-            />
-          </a>
-        ))}
+    <footer className="w-full md:max-w-[850px] mx-auto">
+      <div className="container flex justify-between items-center p-8">
+        <div className="flex">
+          {icons.map((icon) => (
+            <a href={icon.path} key={icon.alt} target="_blank" className="p-2">
+              <Image
+                src={icon.src}
+                height="12"
+                width="20"
+                className="filter invert"
+                alt={icon.alt}
+              />
+            </a>
+          ))}
+        </div>
+        <p className="p-2"> Reyes Rondón</p>
       </div>
-      <p className="p-2"> Reyes Rondón</p>
     </footer>
   )
 }

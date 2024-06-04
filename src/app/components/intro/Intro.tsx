@@ -4,12 +4,12 @@ import {Buttons} from "./Buttons"
 export const Intro = () => {
   return (
     <article className="flex items-center justify-center flex-col-reverse md:flex-row">
-      <div className="p-10 md:w-3/4">
+      <div className="p-10 md:w-11/12 text-center mx-auto">
         <h1 className="text-4xl md:text-5xl pb-2 font-bold">Reyes Rondón</h1>
         <span className="flex justify-between flex-col md:flex-row pb-4 text-lime-600 text-xl">
           <p>Ingeniero en Informática</p>
         </span>
-        <p className="text-start text-xl">
+        <p className="text-center md:text-start text-xl">
           Tengo más de 4 años de experiencia en el desarrollo y mantenimiento de
           aplicaciones web con <span className="spanColor">React</span>,
           <span className="spanColor"> PHP</span>,
