@@ -14,10 +14,13 @@ export const Nav = () => {
     },
   ]
   return (
-    <ul className="flex justify-center">
+    <ul className="flex justify-center navHeader">
       {items.map((item) => (
-        <li key={item.title}>
-          <a href={item.path} className="text-sm md:text-xl p-3 md:p5">
+        <li
+          key={item.title}
+          className="hover:scale-110 hover:opacity-70 inline-block"
+        >
+          <a href={item.path} className="text-sm md:text-xl p-5 md:p5">
             {item.title}
           </a>
         </li>

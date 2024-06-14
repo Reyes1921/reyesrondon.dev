@@ -143,7 +143,7 @@ export const Skills = () => {
           <h2 className="text-center text-lime-600 text-3xl font-bold mb-4 mt-5">
             Frontend
           </h2>
-          <Atropos className="my-atropos mt-5" rotateTouch="scroll-y">
+          <Atropos className="my-atropos mt-5 " rotateTouch="scroll-y">
             <div className="grid md:flex grid-cols-3 md:flex-row justify-around items-center backdrop-brightness-75 border border-lime-600 rounded-xl">
               {frontend.map((icon) => (
                 <div
@@ -157,7 +157,7 @@ export const Skills = () => {
                     className="w-7 md:w-10 color-[#F7DF1E]"
                     alt={icon.alt}
                   />
-                  <span className="text-xs mt-2">{icon.title}</span>
+                  <span className="text-xs mt-2 text-center">{icon.title}</span>
                 </div>
               ))}
             </div>
@@ -181,7 +181,9 @@ export const Skills = () => {
                         className="w-7 md:w-10 color-[#F7DF1E]"
                         alt={icon.alt}
                       />
-                      <span className="text-xs mt-2">{icon.title}</span>
+                      <span className="text-xs mt-2 text-center text-center">
+                        {icon.title}
+                      </span>
                     </div>
                   ))}
                 </div>
@@ -205,7 +207,9 @@ export const Skills = () => {
                         className="w-7 md:w-10 color-[#F7DF1E]"
                         alt={icon.alt}
                       />
-                      <span className="text-xs mt-2">{icon.title}</span>
+                      <span className="text-xs mt-2 text-center">
+                        {icon.title}
+                      </span>
                     </div>
                   ))}
                 </div>
@@ -229,7 +233,9 @@ export const Skills = () => {
                         className="w-7 md:w-10 color-[#F7DF1E]"
                         alt={icon.alt}
                       />
-                      <span className="text-xs mt-2">{icon.title}</span>
+                      <span className="text-xs mt-2 text-center">
+                        {icon.title}
+                      </span>
                     </div>
                   ))}
                 </div>
@@ -254,7 +260,7 @@ export const Skills = () => {
                     className="w-7 md:w-10 color-[#F7DF1E]"
                     alt={icon.alt}
                   />
-                  <span className="text-xs mt-2">{icon.title}</span>
+                  <span className="text-xs mt-2 text-center">{icon.title}</span>
                 </div>
               ))}
             </div>

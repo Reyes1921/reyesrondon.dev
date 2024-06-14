@@ -7,6 +7,9 @@ const inter = Nunito({subsets: ["latin"], style: ["normal", "italic"]})
 export const metadata: Metadata = {
   title: "Portafolio de Reyes Rondón - Desarrollador y Programador Web",
   description: "Fronted developer",
+  icons: {
+    icon: "/favicon.ico",
+  },
 }
 
 export default function RootLayout({

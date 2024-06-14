@@ -32,7 +32,12 @@ export const Footer = () => {
       <div className="container flex justify-between items-center p-8 pt-0">
         <div className="flex">
           {icons.map((icon) => (
-            <a href={icon.path} key={icon.alt} target="_blank" className="p-2">
+            <a
+              href={icon.path}
+              key={icon.alt}
+              target="_blank"
+              className="p-2 hover:scale-110 hover:opacity-70 inline-block"
+            >
               <Image
                 src={icon.src}
                 height="12"
