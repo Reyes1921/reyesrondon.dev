@@ -1,0 +1,18 @@
+{
+  "Metadata": {
+    "title": "Reyes Rondón Portfolio - Web Developer and Programmer.",
+    "description": "Reyes Rondón Portfolio - Web Developer and Programmer."
+  },
+  "Header": {
+    "path": "/es",
+    "title": "En",
+    "logo": "/us.svg",
+    "alt": "Flag of United States"
+  },
+  "Home": {
+    "path": "/en"
+  },
+  "Footer": {
+    "linkedin": "https://www.linkedin.com/in/reyes-rondon/?locale=en_US"
+  }
+}
