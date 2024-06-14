@@ -9,7 +9,7 @@ export const Project = () => {
     {
       title: "Shortner Url",
       desc: "Aplicación para acortar enlaces de forma fácil y rápida con seguimiento del número de veces que se utiliza el enlace acortado.",
-      img: "/wallpaper-es.webp",
+      img: "/shortner-url-es.webp",
       path: "https://shortner-url-fast.vercel.app/es",
       level: "Full Stack",
       github:
@@ -50,7 +50,7 @@ export const Project = () => {
     {
       title: "Shortner Url",
       desc: "Aplicación para acortar enlaces de forma fácil y rápida con seguimiento del número de veces que se utiliza el enlace acortado.",
-      img: "/wallpaper-es.webp",
+      img: "/shortner-url-es.webp",
       path: "https://shortner-url-fast.vercel.app/es",
       level: "Full Stack",
       github:
@@ -91,7 +91,7 @@ export const Project = () => {
     {
       title: "Shortner Url",
       desc: "Aplicación para acortar enlaces de forma fácil y rápida con seguimiento del número de veces que se utiliza el enlace acortado.",
-      img: "/wallpaper-es.webp",
+      img: "/shortner-url-es.webp",
       path: "https://shortner-url-fast.vercel.app/es",
       level: "Full Stack",
       github:
@@ -132,7 +132,7 @@ export const Project = () => {
     {
       title: "Shortner Url",
       desc: "Aplicación para acortar enlaces de forma fácil y rápida con seguimiento del número de veces que se utiliza el enlace acortado.",
-      img: "/wallpaper-es.webp",
+      img: "/shortner-url-es.webp",
       path: "https://shortner-url-fast.vercel.app/es",
       level: "Full Stack",
       github:
@@ -179,9 +179,9 @@ export const Project = () => {
       </h2>
       <div className="p-10 w-full ">
         <div className="grid grid-cols md:grid-cols-2 gap-5">
-          {projects.map((project) => (
+          {projects.map((project, i) => (
             <div
-              key={project.title}
+              key={i}
               className="shadow-drop-center hover:scale-105 ease-in-out duration-500 block rounded-lg shadow-secondary-1 border border-lime-600 bg-[rgb(9,12,20)] min-h-3.5 relative"
             >
               <span className="absolute p-1 m-2 bg-[#65a30d] rounded-lg">
