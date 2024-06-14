@@ -3,8 +3,10 @@
 import Atropos from "atropos/react"
 import "atropos/css"
 import Image from "next/image"
+import {useTranslations} from "next-intl"
 
 export const Skills = () => {
+  const dict = useTranslations("Skills")
   const frontend = [
     {
       path: "/icons/html5.svg",
@@ -137,7 +139,7 @@ export const Skills = () => {
           id="projects"
           className="text-4xl text-center md:text-5xl pb-2 font-bold mb-5"
         >
-          Tecnologías
+          {dict("title")}
         </h2>
         <div className="">
           <h2 className="text-center text-lime-600 text-3xl font-bold mb-4 mt-5">
@@ -191,7 +193,7 @@ export const Skills = () => {
             </div>
             <div>
               <h2 className="text-center text-lime-600 text-3xl font-bold mb-4 mt-5">
-                Bases de Datos
+                {dict("bd")}
               </h2>
               <Atropos className="my-atropos mt-5" rotateTouch="scroll-y">
                 <div className="flex flex-row justify-around md:justify-between items-center backdrop-brightness-75 border border-lime-600 rounded-xl">
@@ -244,7 +246,7 @@ export const Skills = () => {
           </div>
 
           <h2 className="text-center text-lime-600 text-3xl font-bold mb-4 mt-5 pr-2">
-            Herramientas
+            {dict("tools")}
           </h2>
           <Atropos className="my-atropos mt-5" rotateTouch="scroll-y">
             <div className="grid md:flex grid-cols-3 md:flex-row justify-between items-center backdrop-brightness-75 border border-lime-600 rounded-xl">

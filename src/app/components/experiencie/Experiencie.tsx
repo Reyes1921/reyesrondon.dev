@@ -1,4 +1,7 @@
+import {useTranslations} from "next-intl"
+
 export const Experiencie = () => {
+  const dict = useTranslations("Experience")
   return (
     <article className="flex flex-col items-center justify-center">
       <div className="p-10 w-full">
@@ -6,7 +9,7 @@ export const Experiencie = () => {
           id="experience"
           className="text-4xl text-center md:text-5xl pb-2 font-bold mb-5"
         >
-          Experiencia
+          {dict("title")}
         </h2>
         <ul className="timeline timeline-snap-icon timeline-compact timeline-vertical flex flex-start">
           <li>
@@ -32,25 +35,18 @@ export const Experiencie = () => {
                 </span>
                 <span> - </span>
                 <span className="text-base font-normal">
-                  Wordpress Hilfe & Support Berlin,{" "}
-                  <span className="text-[#65a30d]">Remoto</span>
+                  Wordpress Hilfe & Support Berlin,
+                  <span className="text-[#65a30d]">{dict("remote")}</span>
                 </span>
               </div>
-              <time className="font-mono italic">Julio 2019 - Enero 2024</time>
+              <time className="font-mono italic">{dict("dates")}</time>
               <p className="text-left md:text-start text-xl mt-3">
-                Adapté y creé plugins utilizando
-                <span className="spanColor"> HTML</span>,
-                <span className="spanColor"> CSS</span>,
-                <span className="spanColor"> JavaScript</span>,
-                <span className="spanColor"> JQuery</span>,
-                <span className="spanColor"> MySQL</span> y
-                <span className="spanColor"> PHP</span>, además lideré un equipo
-                de desarrolladores para cumplir con los plazos de los proyectos.
+                {dict("text")}
               </p>
             </div>
             <hr className="bg-[#65a30d]" />
           </li>
-          <li>
+          {/* <li>
             <hr className="bg-[#65a30d]" />
             <div className="timeline-middle">
               <svg
@@ -90,7 +86,7 @@ export const Experiencie = () => {
               </p>
             </div>
             <hr className="bg-[#65a30d]" />
-          </li>
+          </li> */}
         </ul>
       </div>
     </article>

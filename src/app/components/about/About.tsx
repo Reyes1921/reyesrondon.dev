@@ -1,6 +1,8 @@
 import Image from "next/image"
+import {useTranslations} from "next-intl"
 
 export const About = () => {
+  const dict = useTranslations("About")
   return (
     <article className="flex flex-col items-center justify-center">
       <div className="p-10 w-full ">
@@ -8,7 +10,7 @@ export const About = () => {
           id="about"
           className="text-4xl text-center md:text-5xl pb-2 font-bold mb-5"
         >
-          Sobre mi
+          {dict("title")}
         </h2>
         <div className="flex justify-center items-center float-none sm:float-left imgAbout mb-10 md:mb-0">
           <Image
@@ -19,7 +21,8 @@ export const About = () => {
             className="rounded-full border-4 border-lime-600 md:mr-6"
           />
         </div>
-        <p className="text-xl text-center md:text-left">
+        <p className="text-xl text-center md:text-left">{dict("text")}</p>
+        {/* <p className="text-xl text-center md:text-left">
           Ingeniero en informática con más de 4 años de experiencia en el
           desarrollo y mantenimiento de aplicaciones web con
           <span className="spanColor"> React</span>,
@@ -35,7 +38,7 @@ export const About = () => {
           <span className="spanColor"> TypeScript</span> y diseño web.
           Recientemente, trabajé en Wordpress Hilfe & Support Berlin, donde cree
           más de 30 páginas web.
-        </p>
+        </p> */}
       </div>
     </article>
   )

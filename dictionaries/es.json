@@ -7,12 +7,39 @@
     "path": "/en",
     "title": "Es",
     "logo": "/es.svg",
-    "alt": "Bandera de España"
+    "alt": "Bandera de España",
+    "experience": "Experiencia",
+    "projects": "Proyectos",
+    "about": "Sobre mi"
   },
-  "Home": {
-    "path": "/es"
+  "Intro": {
+    "level": "Ingeniero en Informática",
+    "text": "Tengo más de 4 años de experiencia en el desarrollo y mantenimiento de aplicaciones web con React, PHP, MySQL y WordPress."
   },
-  "Footer": {
-    "linkedin": "https://www.linkedin.com/in/reyes-rondon/"
+  "Experience": {
+    "title": "Experiencia",
+    "remote": "Remoto",
+    "dates": "Julio 2019 - Enero 2024",
+    "text": "Adapté y creé plugins utilizando HTML, CSS, JavaScript, JQuery, MySQL y PHP, además lideré un equipo de desarrolladores para cumplir con los plazos de los proyectos."
+  },
+  "Projects": {
+    "title": "Proyectos",
+    "shortner_text": "Aplicación para acortar enlaces de forma fácil y rápida con seguimiento del número de veces que se utiliza el enlace acortado.",
+    "shortner_path": "https://shortner-url-fast.vercel.app/es",
+    "shortner_git": "https://github.com/Reyes1921/shortner-url/blob/main/README.es.md"
+  },
+  "Skills": {
+    "title": "Tecnologías",
+    "bd": "Bases de Datos",
+    "tools": "Herramientas"
+  },
+  "About": {
+    "title": "Sobre mi",
+    "text": "Ingeniero en informática con más de 4 años de experiencia en el desarrollo y mantenimiento de aplicaciones web con React, PHP, MySQL y WordPress, desde marcas personales hasta tiendas online. Tengo profundos conocimientos en HTML, CSS, JavaScript, MySQL, React, TypeScript y diseño web. Recientemente, trabajé en Wordpress Hilfe & Support Berlin, donde cree más de 30 páginas web."
+  },
+  "Links": {
+    "github": "https://github.com/Reyes1921",
+    "linkedin": "https://www.linkedin.com/in/reyes-rondon/",
+    "cv": "/cv-reyes-rondon.pdf"
   }
 }

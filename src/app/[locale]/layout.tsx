@@ -12,8 +12,8 @@ export async function generateMetadata({params}: RootMetadata) {
   const t = await getTranslations({params, namespace: "Metadata"})
 
   return {
-    title: "Portafolio de Reyes Rondón - Desarrollador y Programador Web",
-    description: "Fronted developer",
+    title: t("title"),
+    description: t("description"),
     icons: {
       icon: "/favicon.ico",
     },

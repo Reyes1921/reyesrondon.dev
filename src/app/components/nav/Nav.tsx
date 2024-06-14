@@ -1,5 +1,4 @@
 import Link from "next/link"
-import Image from "next/image"
 import {useTranslations} from "next-intl"
 
 export const Nav = () => {
@@ -7,15 +6,15 @@ export const Nav = () => {
   const items = [
     {
       path: "/#experience",
-      title: "Experiencia",
+      title: dict("experience"),
     },
     {
       path: "/#projects",
-      title: "Proyectos",
+      title: dict("projects"),
     },
     {
       path: "/#about",
-      title: "Sobre mi",
+      title: dict("about"),
     },
   ]
   return (

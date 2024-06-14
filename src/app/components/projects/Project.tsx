@@ -1,19 +1,18 @@
 "use client"
-
-import Atropos from "atropos/react"
 import Image from "next/image"
 import Link from "next/link"
+import {useTranslations} from "next-intl"
 
 export const Project = () => {
+  const dict = useTranslations("Projects")
   const projects = [
     {
       title: "Shortner Url",
-      desc: "Aplicación para acortar enlaces de forma fácil y rápida con seguimiento del número de veces que se utiliza el enlace acortado.",
+      desc: dict("shortner_text"),
       img: "/shortner-url-es.webp",
-      path: "https://shortner-url-fast.vercel.app/es",
+      path: dict("shortner_path"),
       level: "Full Stack",
-      github:
-        "https://github.com/Reyes1921/shortner-url/blob/main/README.es.md",
+      github: dict("shortner_git"),
       icons: [
         {
           path: "/icons/typescript.svg",
@@ -49,12 +48,11 @@ export const Project = () => {
     },
     {
       title: "Shortner Url",
-      desc: "Aplicación para acortar enlaces de forma fácil y rápida con seguimiento del número de veces que se utiliza el enlace acortado.",
+      desc: dict("shortner_text"),
       img: "/shortner-url-es.webp",
-      path: "https://shortner-url-fast.vercel.app/es",
+      path: dict("shortner_path"),
       level: "Full Stack",
-      github:
-        "https://github.com/Reyes1921/shortner-url/blob/main/README.es.md",
+      github: dict("shortner_git"),
       icons: [
         {
           path: "/icons/typescript.svg",
@@ -90,12 +88,11 @@ export const Project = () => {
     },
     {
       title: "Shortner Url",
-      desc: "Aplicación para acortar enlaces de forma fácil y rápida con seguimiento del número de veces que se utiliza el enlace acortado.",
+      desc: dict("shortner_text"),
       img: "/shortner-url-es.webp",
-      path: "https://shortner-url-fast.vercel.app/es",
+      path: dict("shortner_path"),
       level: "Full Stack",
-      github:
-        "https://github.com/Reyes1921/shortner-url/blob/main/README.es.md",
+      github: dict("shortner_git"),
       icons: [
         {
           path: "/icons/typescript.svg",
@@ -131,12 +128,11 @@ export const Project = () => {
     },
     {
       title: "Shortner Url",
-      desc: "Aplicación para acortar enlaces de forma fácil y rápida con seguimiento del número de veces que se utiliza el enlace acortado.",
+      desc: dict("shortner_text"),
       img: "/shortner-url-es.webp",
-      path: "https://shortner-url-fast.vercel.app/es",
+      path: dict("shortner_path"),
       level: "Full Stack",
-      github:
-        "https://github.com/Reyes1921/shortner-url/blob/main/README.es.md",
+      github: dict("shortner_git"),
       icons: [
         {
           path: "/icons/typescript.svg",
@@ -179,7 +175,7 @@ export const Project = () => {
           id="projects"
           className="text-4xl text-center md:text-5xl pb-2 font-bold mb-5"
         >
-          Proyectos
+          {dict("title")}
         </h2>
         <div className="grid grid-cols md:grid-cols-2 gap-5">
           {projects.map((project, i) => (

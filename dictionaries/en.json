@@ -7,12 +7,39 @@
     "path": "/es",
     "title": "En",
     "logo": "/us.svg",
-    "alt": "Flag of United States"
+    "alt": "Flag of United States",
+    "experience": "Experience",
+    "projects": "Projects",
+    "about": "About me"
   },
-  "Home": {
-    "path": "/en"
+  "Intro": {
+    "level": "Computer Engineer",
+    "text": "I have more than 4 years of experience developing and maintaining web applications with React, PHP, MySQL and WordPress."
   },
-  "Footer": {
-    "linkedin": "https://www.linkedin.com/in/reyes-rondon/?locale=en_US"
+  "Experience": {
+    "title": "Experience",
+    "remote": "Remote",
+    "dates": "July 2019 - January 2024",
+    "text": "I adapted and created plugins using HTML, CSS, JavaScript, JQuery, MySQL and PHP, and led a team of developers to meet project deadlines."
+  },
+  "Projects": {
+    "title": "Projects",
+    "shortner_text": "Quick and easy link shortening application with tracking of the number of times the shortened link is used.",
+    "shortner_path": "https://shortner-url-fast.vercel.app/en",
+    "shortner_git": "https://github.com/Reyes1921/shortner-url/blob/main/README.md"
+  },
+  "Skills": {
+    "title": "Technologies",
+    "bd": "Databases",
+    "tools": "Tools"
+  },
+  "About": {
+    "title": "About me",
+    "text": "Computer engineer with more than 4 years of experience developing and maintaining web applications with React, PHP, MySQL and WordPress, from personal brands to online stores. I have deep knowledge in HTML, CSS, JavaScript, MySQL, React, TypeScript and web design. Recently, I worked at Wordpress Hilfe & Support Berlin, where I created more than 30 websites."
+  },
+  "Links": {
+    "github": "https://github.com/Reyes1921",
+    "linkedin": "https://www.linkedin.com/in/reyes-rondon/?locale=en_US",
+    "cv": "/cv-reyes-rondon-en.pdf"
   }
 }

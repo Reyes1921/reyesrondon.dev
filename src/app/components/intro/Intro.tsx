@@ -1,7 +1,9 @@
 import Image from "next/image"
 import {Buttons} from "./Buttons"
+import {useTranslations} from "next-intl"
 
 export const Intro = () => {
+  const dict = useTranslations("Intro")
   return (
     <article className="flex items-center justify-center flex-col-reverse md:flex-row">
       <div className="p-10 md:w-11/12 text-center mx-auto">
@@ -9,15 +11,9 @@ export const Intro = () => {
           Reyes Rondón
         </h1>
         <span className="flex justify-between flex-col md:flex-row pb-4 text-lime-600 text-xl">
-          <p>Ingeniero en Informática</p>
+          <p>{dict("level")}</p>
         </span>
-        <p className="text-center md:text-start text-xl">
-          Tengo más de 4 años de experiencia en el desarrollo y mantenimiento de
-          aplicaciones web con <span className="spanColor">React</span>,
-          <span className="spanColor"> PHP</span>,
-          <span className="spanColor"> MySQL</span> y
-          <span className="spanColor"> WordPress</span>.
-        </p>
+        <p className="text-center md:text-start text-xl">{dict("text")}</p>
         <Buttons />
       </div>
       <div className="flex justify-center md:justify-start w-3/6 md:w-2/6 md:mb-0">
