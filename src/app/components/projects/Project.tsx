@@ -177,7 +177,10 @@ export const Project = () => {
       <div className="p-10 w-full ">
         <div className="grid grid-cols md:grid-cols-2 gap-5">
           {projects.map((project) => (
-            <div className="shadow-drop-center hover:scale-105 ease-in-out duration-500 block rounded-lg shadow-secondary-1 border border-lime-600 bg-[rgb(9,12,20)] min-h-3.5 relative">
+            <div
+              key={project.title}
+              className="shadow-drop-center hover:scale-105 ease-in-out duration-500 block rounded-lg shadow-secondary-1 border border-lime-600 bg-[rgb(9,12,20)] min-h-3.5 relative"
+            >
               <span className="absolute p-1 m-2 bg-[#65a30d] rounded-lg">
                 {project.level}
               </span>
