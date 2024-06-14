@@ -37,7 +37,7 @@ export const Experiencie = () => {
                 </span>
               </div>
               <time className="font-mono italic">Julio 2019 - Enero 2024</time>
-              <p className="text-left md:text-start text-xl">
+              <p className="text-left md:text-start text-xl mt-3">
                 Adapté y creé plugins utilizando
                 <span className="spanColor"> HTML</span>,
                 <span className="spanColor"> CSS</span>,
@@ -78,7 +78,7 @@ export const Experiencie = () => {
                 </span>
               </div>
               <time className="font-mono italic">Julio 2019 - Enero 2024</time>
-              <p className="text-left md:text-start text-xl">
+              <p className="text-left md:text-start text-xl mt-3">
                 Adapté y creé plugins utilizando
                 <span className="spanColor"> HTML</span>,
                 <span className="spanColor"> CSS</span>,

@@ -203,7 +203,7 @@ export const Project = () => {
               </Link>
               <Link href={project.path}>
                 <Image
-                  className="rounded-t-lg"
+                  className="rounded-t-lg w-full"
                   width={400}
                   height={200}
                   src={project.img}
