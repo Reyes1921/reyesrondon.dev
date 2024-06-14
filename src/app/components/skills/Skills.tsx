@@ -181,7 +181,7 @@ export const Skills = () => {
                         className="w-7 md:w-10 color-[#F7DF1E]"
                         alt={icon.alt}
                       />
-                      <span className="text-xs mt-2 text-center text-center">
+                      <span className="text-xs mt-2 text-center">
                         {icon.title}
                       </span>
                     </div>
