@@ -51,49 +51,10 @@ export const Project = () => {
       title: "Shortner Url",
       desc: "Aplicación para acortar enlaces de forma fácil y rápida con seguimiento del número de veces que se utiliza el enlace acortado.",
       img: "/wallpaper-es.webp",
-      path: "/",
-      level: "",
-      github: "",
-      icons: [
-        {
-          path: "/icons/typescript.svg",
-          title: "TypeScript",
-          alt: "TypeScript logo",
-        },
-        {
-          path: "/icons/nextdotjs.svg",
-          title: "Next.Js",
-          alt: "Next.Js logo",
-        },
-        {
-          path: "/icons/tailwindcss.svg",
-          title: "Tailwind CSS",
-          alt: "Tailwind CSS logo",
-        },
-        {
-          path: "/icons/nodedotjs.svg",
-          title: "NodeJs",
-          alt: "NodeJs logo",
-        },
-        {
-          path: "/icons/express.svg",
-          title: "Express",
-          alt: "Express logo",
-        },
-        {
-          path: "/icons/mongodb.svg",
-          title: "MongoDB",
-          alt: "MongoDB logo",
-        },
-      ],
-    },
-    {
-      title: "Shortner Url",
-      desc: "Aplicación para acortar enlaces de forma fácil y rápida con seguimiento del número de veces que se utiliza el enlace acortado.",
-      img: "/shortner-url-es.webp",
-      path: "",
-      github: "",
-      level: "",
+      path: "https://shortner-url-fast.vercel.app/es",
+      level: "Full Stack",
+      github:
+        "https://github.com/Reyes1921/shortner-url/blob/main/README.es.md",
       icons: [
         {
           path: "/icons/typescript.svg",
@@ -131,9 +92,51 @@ export const Project = () => {
       title: "Shortner Url",
       desc: "Aplicación para acortar enlaces de forma fácil y rápida con seguimiento del número de veces que se utiliza el enlace acortado.",
       img: "/wallpaper-es.webp",
-      path: "/",
-      github: "",
-      level: "",
+      path: "https://shortner-url-fast.vercel.app/es",
+      level: "Full Stack",
+      github:
+        "https://github.com/Reyes1921/shortner-url/blob/main/README.es.md",
+      icons: [
+        {
+          path: "/icons/typescript.svg",
+          title: "TypeScript",
+          alt: "TypeScript logo",
+        },
+        {
+          path: "/icons/nextdotjs.svg",
+          title: "Next.Js",
+          alt: "Next.Js logo",
+        },
+        {
+          path: "/icons/tailwindcss.svg",
+          title: "Tailwind CSS",
+          alt: "Tailwind CSS logo",
+        },
+        {
+          path: "/icons/nodedotjs.svg",
+          title: "NodeJs",
+          alt: "NodeJs logo",
+        },
+        {
+          path: "/icons/express.svg",
+          title: "Express",
+          alt: "Express logo",
+        },
+        {
+          path: "/icons/mongodb.svg",
+          title: "MongoDB",
+          alt: "MongoDB logo",
+        },
+      ],
+    },
+    {
+      title: "Shortner Url",
+      desc: "Aplicación para acortar enlaces de forma fácil y rápida con seguimiento del número de veces que se utiliza el enlace acortado.",
+      img: "/wallpaper-es.webp",
+      path: "https://shortner-url-fast.vercel.app/es",
+      level: "Full Stack",
+      github:
+        "https://github.com/Reyes1921/shortner-url/blob/main/README.es.md",
       icons: [
         {
           path: "/icons/typescript.svg",
