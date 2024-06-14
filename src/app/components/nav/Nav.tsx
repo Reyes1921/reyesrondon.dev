@@ -1,12 +1,12 @@
 export const Nav = () => {
   const items = [
     {
-      path: "/#projects",
-      title: "Proyectos",
-    },
-    {
       path: "/#experience",
       title: "Experiencia",
+    },
+    {
+      path: "/#projects",
+      title: "Proyectos",
     },
     {
       path: "/#about",

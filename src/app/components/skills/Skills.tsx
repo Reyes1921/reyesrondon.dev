@@ -131,11 +131,11 @@ export const Skills = () => {
   ]
 
   return (
-    <article className="flex items-center justify-center md:flex-row">
+    <article className="flex flex-col items-center justify-center">
       <div className="p-10 w-full">
         <h2
           id="projects"
-          className="text-4xl text-center md:text-5xl pb-2 font-bold"
+          className="text-4xl text-center md:text-5xl pb-2 font-bold mb-5"
         >
           Tecnologías
         </h2>

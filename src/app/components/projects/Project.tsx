@@ -174,10 +174,13 @@ export const Project = () => {
 
   return (
     <article className="flex flex-col items-center justify-center">
-      <h2 id="projects" className="text-4xl md:text-5xl pb-2 font-bold">
-        Proyectos
-      </h2>
-      <div className="p-10 w-full ">
+      <div className="p-10 w-full">
+        <h2
+          id="projects"
+          className="text-4xl text-center md:text-5xl pb-2 font-bold mb-5"
+        >
+          Proyectos
+        </h2>
         <div className="grid grid-cols md:grid-cols-2 gap-5">
           {projects.map((project, i) => (
             <div
