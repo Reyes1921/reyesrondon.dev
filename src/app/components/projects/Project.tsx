@@ -222,7 +222,7 @@ export const Project = () => {
                       width={70}
                       height={70}
                       src={icon.path}
-                      className="w-7 md:w-10 color-[#F7DF1E] p-2"
+                      className="w-9 md:w-10 color-[#F7DF1E] p-2"
                       alt={icon.alt}
                     />
                   ))}
