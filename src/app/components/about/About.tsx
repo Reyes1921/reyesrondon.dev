@@ -5,10 +5,10 @@ export const About = () => {
   const dict = useTranslations("About")
   return (
     <article className="flex flex-col items-center justify-center">
-      <div className="p-10 w-full ">
+      <div className="px-10 py-5 w-full ">
         <h2
           id="about"
-          className="text-4xl text-center md:text-5xl pb-2 font-bold mb-5"
+          className="text-3xl md:text-5xl text-center pb-2 font-bold mb-5"
         >
           {dict("title")}
         </h2>
@@ -21,7 +21,9 @@ export const About = () => {
             className="rounded-full border-4 border-lime-600 md:mr-6"
           />
         </div>
-        <p className="text-xl text-center md:text-left">{dict("text")}</p>
+        <p className="text-base md:text-xl text-center md:text-left">
+          {dict("text")}
+        </p>
         {/* <p className="text-xl text-center md:text-left">
           Ingeniero en informática con más de 4 años de experiencia en el
           desarrollo y mantenimiento de aplicaciones web con

@@ -4,10 +4,10 @@ export const Experiencie = () => {
   const dict = useTranslations("Experience")
   return (
     <article className="flex flex-col items-center justify-center">
-      <div className="p-10 w-full">
+      <div className="px-10 py-5 w-full">
         <h2
           id="experience"
-          className="text-4xl text-center md:text-5xl pb-2 font-bold mb-5"
+          className="text-3xl md:text-5xl text-center pb-2 font-bold mb-5"
         >
           {dict("title")}
         </h2>
@@ -40,7 +40,7 @@ export const Experiencie = () => {
                 </span>
               </div>
               <time className="font-mono italic">{dict("dates")}</time>
-              <p className="text-left md:text-start text-xl mt-3">
+              <p className="text-left md:text-start text-base md:text-xl mt-3">
                 {dict("text")}
               </p>
             </div>

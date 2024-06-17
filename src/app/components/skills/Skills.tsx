@@ -134,15 +134,15 @@ export const Skills = () => {
 
   return (
     <article className="flex flex-col items-center justify-center">
-      <div className="p-10 w-full">
+      <div className="px-10 py-5 w-full">
         <h2
           id="projects"
-          className="text-4xl text-center md:text-5xl pb-2 font-bold mb-5"
+          className="text-3xl md:text-5xl text-center pb-2 font-bold mb-5"
         >
           {dict("title")}
         </h2>
         <div className="">
-          <h2 className="text-center text-lime-600 text-3xl font-bold mb-4 mt-5">
+          <h2 className="text-center text-lime-600 text-xl md:text-3xl font-bold mb-4 mt-5">
             Frontend
           </h2>
           <Atropos className="my-atropos mt-5 " rotateTouch="scroll-y">
@@ -166,7 +166,7 @@ export const Skills = () => {
           </Atropos>
           <div className="flex flex-col md:flex-row justify-between">
             <div>
-              <h2 className="text-center text-lime-600 text-3xl font-bold mb-4 mt-5 pr-2">
+              <h2 className="text-center text-lime-600 text-xl md:text-3xl font-bold mb-4 mt-5 pr-2">
                 Backend
               </h2>
               <Atropos className="my-atropos mt-5" rotateTouch="scroll-y">
@@ -192,7 +192,7 @@ export const Skills = () => {
               </Atropos>
             </div>
             <div>
-              <h2 className="text-center text-lime-600 text-3xl font-bold mb-4 mt-5">
+              <h2 className="text-center text-lime-600  text-xl md:text-3xl font-bold mb-4 mt-5">
                 {dict("bd")}
               </h2>
               <Atropos className="my-atropos mt-5" rotateTouch="scroll-y">
@@ -218,7 +218,7 @@ export const Skills = () => {
               </Atropos>
             </div>
             <div>
-              <h2 className="text-center text-lime-600 text-3xl font-bold mb-4 mt-5 pr-2">
+              <h2 className="text-center text-lime-600  text-xl md:text-3xlfont-bold mb-4 mt-5 pr-2">
                 Testing
               </h2>
               <Atropos className="my-atropos mt-5" rotateTouch="scroll-y">
@@ -245,7 +245,7 @@ export const Skills = () => {
             </div>
           </div>
 
-          <h2 className="text-center text-lime-600 text-3xl font-bold mb-4 mt-5 pr-2">
+          <h2 className="text-center text-lime-600  text-xl md:text-3xl font-bold mb-4 mt-5 pr-2">
             {dict("tools")}
           </h2>
           <Atropos className="my-atropos mt-5" rotateTouch="scroll-y">

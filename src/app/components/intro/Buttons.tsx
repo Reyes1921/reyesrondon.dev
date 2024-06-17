@@ -31,7 +31,7 @@ export const Buttons = () => {
   ]
 
   return (
-    <div className="flex justify-center md:justify-start gap-2 md:flex md:flex-row  mt-3">
+    <div className="flex justify-center md:justify-start gap-2 md:flex md:flex-row mt-3">
       {items.map((item) => (
         <a
           href={item.path}

@@ -170,10 +170,10 @@ export const Project = () => {
 
   return (
     <article className="flex flex-col items-center justify-center">
-      <div className="p-10 w-full">
+      <div className="px-10 py-5 w-full">
         <h2
           id="projects"
-          className="text-4xl text-center md:text-5xl pb-2 font-bold mb-5"
+          className="text-3xl md:text-5xl text-center pb-2 font-bold mb-5"
         >
           {dict("title")}
         </h2>
@@ -208,12 +208,12 @@ export const Project = () => {
               </Link>
               <div className="p-5">
                 <Link href={project.path} className="flex">
-                  <h5 className="mb-2 text-xl leading-tight text-lime-600 font-bold">
+                  <h5 className="mb-2 text-base md:text-xl leading-tight text-lime-600 font-bold">
                     {project.title}
                   </h5>
                 </Link>
 
-                <p className="mb-4 text-base">{project.desc}</p>
+                <p className="mb-4 text-sm md:text-base">{project.desc}</p>
                 <div className="flex justify-start">
                   {project.icons.map((icon) => (
                     <Image
