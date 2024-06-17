@@ -110,3 +110,25 @@ body {
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
 }
+
+/* ===== Scrollbar CSS ===== */
+/* Firefox */
+* {
+  scrollbar-width: auto;
+  scrollbar-color: #65a30d #111827;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 16px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #ffffff;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #65a30d;
+  border-radius: 50%;
+  border: 3px solid #ffffff;
+}

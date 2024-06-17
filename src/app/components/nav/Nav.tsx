@@ -24,7 +24,7 @@ export const Nav = () => {
           key={item.title}
           className="hover:scale-110 hover:opacity-70 inline-block"
         >
-          <Link href={item.path} className="text-xs md:text-base p-5 md:p5">
+          <Link href={item.path} className="text-xs md:text-base p-4">
             {item.title}
           </Link>
         </li>

@@ -6,7 +6,7 @@ export const Intro = () => {
   const dict = useTranslations("Intro")
   return (
     <article className="flex items-center justify-center flex-col-reverse md:flex-row">
-      <div className="p-10 md:w-11/12 text-center mx-auto">
+      <div className="px-10 py-5 md:w-11/12 text-center mx-auto">
         <h1 className="text-3xl md:text-5xl pb-2 font-bold text-center md:text-left main-heading">
           Reyes Rondón
         </h1>

@@ -18,7 +18,7 @@ export const Header = () => {
               height={20}
               width={20}
               alt={dict("alt")}
-              className="pr-1"
+              className="md:pr-1"
             />
             <span className="text-xs md:text-base font-normal hidden md:block">
               {dict("title")}
