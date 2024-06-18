@@ -129,6 +129,6 @@ body {
 
 *::-webkit-scrollbar-thumb {
   background-color: #65a30d;
-  border-radius: 50%;
+  border-radius: 10px;
   border: 3px solid #ffffff;
 }

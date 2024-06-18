@@ -17,8 +17,8 @@ export const About = () => {
             width={150}
             height={150}
             src="/reyes-rondon.webp"
-            alt="imagen de Reyes Rondon"
-            className="rounded-full border-4 border-lime-600 md:mr-6"
+            alt="Reyes Rondon"
+            className="rounded-full border-4 border-lime-600 md:mr-6 w-2/5 md:w-44"
           />
         </div>
         <p className="text-base md:text-xl text-center md:text-left">

@@ -18,13 +18,13 @@ export const Intro = () => {
         </p>
         <Buttons />
       </div>
-      <div className="flex justify-center md:justify-start w-2/6 md:mb-0">
+      <div className="flex justify-center  md:justify-start w-2/6 md:mb-0">
         <Image
           width={150}
           height={150}
           src="/reyes-rondon.webp"
-          alt="imagen de Reyes Rondon"
-          className=" rounded-full border-4 border-lime-600 w-4/5"
+          alt="Reyes Rondon"
+          className="rounded-full border-4 border-lime-600 w-4/5"
         />
       </div>
     </article>
