@@ -9,7 +9,72 @@ export const Project = () => {
     {
       title: "Shortner Url",
       desc: dict("shortner_text"),
-      img: "/shortner-url-es.webp",
+      img: dict("shortner_img"),
+      path: dict("shortner_path"),
+      level: "Full Stack",
+      github: dict("shortner_git"),
+      icons: [
+        {
+          path: "/icons/typescript.svg",
+          title: "TypeScript",
+          alt: "TypeScript logo",
+        },
+        {
+          path: "/icons/nextdotjs.svg",
+          title: "Next.Js",
+          alt: "Next.Js logo",
+        },
+        {
+          path: "/icons/tailwindcss.svg",
+          title: "Tailwind CSS",
+          alt: "Tailwind CSS logo",
+        },
+        {
+          path: "/icons/nodedotjs.svg",
+          title: "NodeJs",
+          alt: "NodeJs logo",
+        },
+        {
+          path: "/icons/express.svg",
+          title: "Express",
+          alt: "Express logo",
+        },
+        {
+          path: "/icons/mongodb.svg",
+          title: "MongoDB",
+          alt: "MongoDB logo",
+        },
+      ],
+    },
+    {
+      title: "Image Color Detector",
+      desc: dict("img_detector_text"),
+      img: dict("img_detector_img"),
+      path: dict("img_detector_path"),
+      level: "Frontend",
+      github: dict("img_detector_git"),
+      icons: [
+        {
+          path: "/icons/react.svg",
+          title: "React",
+          alt: "React logo",
+        },
+        {
+          path: "/icons/typescript.svg",
+          title: "TypeScript",
+          alt: "TypeScript logo",
+        },
+        {
+          path: "/icons/tailwindcss.svg",
+          title: "Tailwind CSS",
+          alt: "Tailwind CSS logo",
+        },
+      ],
+    },
+    {
+      title: "Shortner Url",
+      desc: dict("shortner_text"),
+      img: dict("shortner_img"),
       path: dict("shortner_path"),
       level: "Full Stack",
       github: dict("shortner_git"),
@@ -49,87 +114,7 @@ export const Project = () => {
     {
       title: "Shortner Url",
       desc: dict("shortner_text"),
-      img: "/shortner-url-es.webp",
-      path: dict("shortner_path"),
-      level: "Full Stack",
-      github: dict("shortner_git"),
-      icons: [
-        {
-          path: "/icons/typescript.svg",
-          title: "TypeScript",
-          alt: "TypeScript logo",
-        },
-        {
-          path: "/icons/nextdotjs.svg",
-          title: "Next.Js",
-          alt: "Next.Js logo",
-        },
-        {
-          path: "/icons/tailwindcss.svg",
-          title: "Tailwind CSS",
-          alt: "Tailwind CSS logo",
-        },
-        {
-          path: "/icons/nodedotjs.svg",
-          title: "NodeJs",
-          alt: "NodeJs logo",
-        },
-        {
-          path: "/icons/express.svg",
-          title: "Express",
-          alt: "Express logo",
-        },
-        {
-          path: "/icons/mongodb.svg",
-          title: "MongoDB",
-          alt: "MongoDB logo",
-        },
-      ],
-    },
-    {
-      title: "Shortner Url",
-      desc: dict("shortner_text"),
-      img: "/shortner-url-es.webp",
-      path: dict("shortner_path"),
-      level: "Full Stack",
-      github: dict("shortner_git"),
-      icons: [
-        {
-          path: "/icons/typescript.svg",
-          title: "TypeScript",
-          alt: "TypeScript logo",
-        },
-        {
-          path: "/icons/nextdotjs.svg",
-          title: "Next.Js",
-          alt: "Next.Js logo",
-        },
-        {
-          path: "/icons/tailwindcss.svg",
-          title: "Tailwind CSS",
-          alt: "Tailwind CSS logo",
-        },
-        {
-          path: "/icons/nodedotjs.svg",
-          title: "NodeJs",
-          alt: "NodeJs logo",
-        },
-        {
-          path: "/icons/express.svg",
-          title: "Express",
-          alt: "Express logo",
-        },
-        {
-          path: "/icons/mongodb.svg",
-          title: "MongoDB",
-          alt: "MongoDB logo",
-        },
-      ],
-    },
-    {
-      title: "Shortner Url",
-      desc: dict("shortner_text"),
-      img: "/shortner-url-es.webp",
+      img: dict("shortner_img"),
       path: dict("shortner_path"),
       level: "Full Stack",
       github: dict("shortner_git"),
