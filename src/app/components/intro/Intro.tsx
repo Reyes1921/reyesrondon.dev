@@ -13,7 +13,7 @@ export const Intro = () => {
         <span className="flex justify-between flex-col md:flex-row pb-4 text-lime-600 text-base md:text-xl">
           <p>{dict("level")}</p>
         </span>
-        <p className="text-center md:text-start text-base md:text-xl">
+        <p className="text-center md:text-start text-base md:text-xl text-[#ffffffb5]">
           {dict("text")}
         </p>
         <Buttons />

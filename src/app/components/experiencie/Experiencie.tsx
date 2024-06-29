@@ -7,7 +7,7 @@ export const Experiencie = () => {
       <div className="px-10 py-5 w-full">
         <h2
           id="experience"
-          className="text-3xl md:text-5xl text-center pb-2 font-bold mb-5"
+          className="text-3xl md:text-5xl text-center pb-2 font-bold mb-5 mt-4"
         >
           {dict("title")}
         </h2>
@@ -40,7 +40,7 @@ export const Experiencie = () => {
                 </span>
               </div>
               <time className="font-mono italic">{dict("dates")}</time>
-              <p className="text-left md:text-start text-base md:text-xl mt-3">
+              <p className="text-left md:text-start text-base md:text-xl mt-3 text-[#ffffffb5]">
                 {dict("text")}
               </p>
             </div>

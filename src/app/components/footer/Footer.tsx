@@ -1,5 +1,6 @@
 import Image from "next/image"
 import {useTranslations} from "next-intl"
+import Link from "next/link"
 
 export const Footer = () => {
   const dict = useTranslations("Links")
@@ -34,7 +35,7 @@ export const Footer = () => {
       <div className="container flex justify-between items-center p-8 pt-0">
         <div className="flex">
           {icons.map((icon) => (
-            <a
+            <Link
               href={icon.path}
               key={icon.alt}
               target="_blank"
@@ -47,7 +48,7 @@ export const Footer = () => {
                 className="filter invert"
                 alt={icon.alt}
               />
-            </a>
+            </Link>
           ))}
         </div>
         <p className="p-2"> Reyes Rondón</p>

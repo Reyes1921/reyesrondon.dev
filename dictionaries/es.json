@@ -25,10 +25,12 @@
   "Projects": {
     "title": "Proyectos",
     "shortner_title": "Shortner Url",
+    "shortner_color": "#F86A27",
     "shortner_text": "Aplicación para acortar enlaces de forma fácil y rápida con seguimiento del número de veces que se utiliza el enlace acortado.",
     "shortner_path": "https://shortner-url-fast.vercel.app/es",
     "shortner_img": "/shortner-url-es.webp",
     "shortner_git": "https://github.com/Reyes1921/shortner-url/blob/main/README.es.md",
+    "img_detector_color": "#38bdf8",
     "img_detector_text": "Extrae de forma fácil y sencilla una variedad de colores de cualquier imagen en formato PNG, JPG, JPEG, SVG, WEBP y GIF",
     "img_detector_path": "https://image-color-detector.vercel.app/",
     "img_detector_img": "/image-color-detector-es.webp",

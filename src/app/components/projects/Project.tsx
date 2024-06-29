@@ -7,6 +7,7 @@ export const Project = () => {
   const dict = useTranslations("Projects")
   const projects = [
     {
+      color: dict("shortner_color"),
       title: "Shortner Url",
       desc: dict("shortner_text"),
       img: dict("shortner_img"),
@@ -47,6 +48,7 @@ export const Project = () => {
       ],
     },
     {
+      color: dict("img_detector_color"),
       title: "Image Color Detector",
       desc: dict("img_detector_text"),
       img: dict("img_detector_img"),
@@ -71,86 +73,6 @@ export const Project = () => {
         },
       ],
     },
-    {
-      title: "Shortner Url",
-      desc: dict("shortner_text"),
-      img: dict("shortner_img"),
-      path: dict("shortner_path"),
-      level: "Full Stack",
-      github: dict("shortner_git"),
-      icons: [
-        {
-          path: "/icons/typescript.svg",
-          title: "TypeScript",
-          alt: "TypeScript logo",
-        },
-        {
-          path: "/icons/nextdotjs.svg",
-          title: "Next.Js",
-          alt: "Next.Js logo",
-        },
-        {
-          path: "/icons/tailwindcss.svg",
-          title: "Tailwind CSS",
-          alt: "Tailwind CSS logo",
-        },
-        {
-          path: "/icons/nodedotjs.svg",
-          title: "NodeJs",
-          alt: "NodeJs logo",
-        },
-        {
-          path: "/icons/express.svg",
-          title: "Express",
-          alt: "Express logo",
-        },
-        {
-          path: "/icons/mongodb.svg",
-          title: "MongoDB",
-          alt: "MongoDB logo",
-        },
-      ],
-    },
-    {
-      title: "Shortner Url",
-      desc: dict("shortner_text"),
-      img: dict("shortner_img"),
-      path: dict("shortner_path"),
-      level: "Full Stack",
-      github: dict("shortner_git"),
-      icons: [
-        {
-          path: "/icons/typescript.svg",
-          title: "TypeScript",
-          alt: "TypeScript logo",
-        },
-        {
-          path: "/icons/nextdotjs.svg",
-          title: "Next.Js",
-          alt: "Next.Js logo",
-        },
-        {
-          path: "/icons/tailwindcss.svg",
-          title: "Tailwind CSS",
-          alt: "Tailwind CSS logo",
-        },
-        {
-          path: "/icons/nodedotjs.svg",
-          title: "NodeJs",
-          alt: "NodeJs logo",
-        },
-        {
-          path: "/icons/express.svg",
-          title: "Express",
-          alt: "Express logo",
-        },
-        {
-          path: "/icons/mongodb.svg",
-          title: "MongoDB",
-          alt: "MongoDB logo",
-        },
-      ],
-    },
   ]
 
   return (
@@ -158,7 +80,7 @@ export const Project = () => {
       <div className="px-10 py-5 w-full">
         <h2
           id="projects"
-          className="text-3xl md:text-5xl text-center pb-2 font-bold mb-5"
+          className="text-3xl md:text-5xl text-center pb-2 font-bold mb-5 mt-4"
         >
           {dict("title")}
         </h2>
@@ -166,12 +88,17 @@ export const Project = () => {
           {projects.map((project, i) => (
             <div
               key={i}
-              className="shadow-drop-center hover:scale-105 ease-in-out duration-500 block rounded-lg shadow-secondary-1 border border-lime-600 bg-[rgb(9,12,20)] min-h-3.5 relative"
+              style={{borderColor: project.color}}
+              className="shadow-drop-center hover:scale-105 ease-in-out duration-500 block rounded-lg shadow-secondary-1 border bg-[rgb(9,12,20)] min-h-3.5 relative"
             >
-              <span className="absolute p-1 m-2 bg-[#65a30d] rounded-lg">
+              <span
+                style={{backgroundColor: project.color}}
+                className="absolute p-1 m-2 rounded-lg"
+              >
                 {project.level}
               </span>
               <Link
+                target="_blank"
                 href={project.github}
                 className="absolute right-0 m-2 hover:scale-110 hover:opacity-70 inline-block"
               >
@@ -182,7 +109,7 @@ export const Project = () => {
                   alt="github logo"
                 />
               </Link>
-              <Link href={project.path}>
+              <Link href={project.path} target="_blank">
                 <Image
                   className="rounded-t-lg w-full"
                   width={400}
@@ -193,12 +120,17 @@ export const Project = () => {
               </Link>
               <div className="p-5">
                 <Link href={project.path} className="flex">
-                  <h5 className="mb-2 text-base md:text-xl leading-tight text-lime-600 font-bold">
+                  <h5
+                    style={{color: project.color}}
+                    className="mb-2 text-base md:text-xl leading-tight text-lime-600 font-bold"
+                  >
                     {project.title}
                   </h5>
                 </Link>
 
-                <p className="mb-4 text-sm md:text-base">{project.desc}</p>
+                <p className="mb-4 text-sm md:text-base text-[#ffffffb5]">
+                  {project.desc}
+                </p>
                 <div className="flex justify-start">
                   {project.icons.map((icon) => (
                     <Image

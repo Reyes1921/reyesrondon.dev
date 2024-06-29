@@ -1,5 +1,6 @@
 import Image from "next/image"
 import {useTranslations} from "next-intl"
+import Link from "next/link"
 
 export const Buttons = () => {
   const dict = useTranslations("Links")
@@ -33,7 +34,7 @@ export const Buttons = () => {
   return (
     <div className="flex justify-center md:justify-start gap-2 md:flex md:flex-row mt-3">
       {items.map((item) => (
-        <a
+        <Link
           href={item.path}
           key={item.title}
           target="_blank"
@@ -49,7 +50,7 @@ export const Buttons = () => {
             />
             {item.title === "CV" ? item.title : ""}
           </button>
-        </a>
+        </Link>
       ))}
     </div>
   )

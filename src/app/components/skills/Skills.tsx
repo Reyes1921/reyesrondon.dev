@@ -137,7 +137,7 @@ export const Skills = () => {
       <div className="px-10 py-5 w-full">
         <h2
           id="projects"
-          className="text-3xl md:text-5xl text-center pb-2 font-bold mb-5"
+          className="text-3xl md:text-5xl text-center pb-2 font-bold mb-5 mt-4"
         >
           {dict("title")}
         </h2>
@@ -218,7 +218,7 @@ export const Skills = () => {
               </Atropos>
             </div>
             <div>
-              <h2 className="text-center text-lime-600  text-xl md:text-3xlfont-bold mb-4 mt-5 pr-2">
+              <h2 className="text-center text-lime-600  text-xl md:text-3xl font-bold mb-4 mt-5 pr-2">
                 Testing
               </h2>
               <Atropos className="my-atropos mt-5" rotateTouch="scroll-y">
