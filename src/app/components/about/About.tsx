@@ -4,7 +4,7 @@ import {useTranslations} from "next-intl"
 export const About = () => {
   const dict = useTranslations("About")
   return (
-    <article className="flex flex-col items-center justify-center">
+    <article className="flex flex-col items-center justify-center mb-10">
       <div className="px-10 py-5 w-full ">
         <h2
           id="about"
@@ -21,7 +21,7 @@ export const About = () => {
             className="rounded-full border-4 border-lime-600 md:mr-6 w-2/5 md:w-44"
           />
         </div>
-        <p className="text-base md:text-xl text-center md:text-left tracking-wider text-[#ffffffb5]">
+        <p className="text-base md:text-xl text-center md:text-left tracking-tight text-[#ffffffb5]">
           {dict("text")}
         </p>
         {/* <p className="text-xl text-center md:text-left">
