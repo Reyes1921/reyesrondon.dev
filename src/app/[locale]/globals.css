@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --color: red;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -48,7 +52,7 @@ body {
     box-shadow: 0 0 0 0 transparent;
   }
   100% {
-    box-shadow: 0 0 15px 0 #65a30d;
+    box-shadow: 0 0 15px 0 var(--color);
   }
 }
 
@@ -109,6 +113,16 @@ body {
   animation-duration: 2.5s;
   -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
+}
+
+/*Gradient border*/
+.gradientBroder {
+  background-image: conic-gradient(
+    from 90deg at -50% 50%,
+    purple 0%,
+    rgb(101, 163, 13) 50%,
+    var(--color) 100%
+  );
 }
 
 /* ===== Scrollbar CSS ===== */

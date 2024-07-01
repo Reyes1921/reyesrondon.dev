@@ -87,61 +87,78 @@ export const Project = () => {
         <div className="grid grid-cols md:grid-cols-2 gap-5">
           {projects.map((project, i) => (
             <div
+              style={
+                {
+                  "--color": project.color,
+                } as React.CSSProperties
+              }
               key={i}
-              style={{borderColor: project.color}}
-              className="shadow-drop-center hover:scale-105 ease-in-out duration-500 block rounded-lg shadow-secondary-1 border bg-[rgb(9,12,20)] min-h-3.5 relative"
+              className="relative inline-flex overflow-hidden rounded-lg p-[1.5px] shadow-drop-center hover:scale-105 ease-in-out duration-500"
             >
               <span
-                style={{backgroundColor: project.color}}
-                className="absolute p-1 m-2 rounded-lg"
+                style={
+                  {
+                    "--color": project.color,
+                  } as React.CSSProperties
+                }
+                className="absolute inset-[-1000%] animate-[spin_8s_linear_infinite] gradientBroder"
+              ></span>
+              <div
+                style={{borderColor: project.color}}
+                className=" block rounded-lg shadow-secondary-1 border bg-[rgb(9,12,20)] min-h-3.5 relative"
               >
-                {project.level}
-              </span>
-              <Link
-                target="_blank"
-                href={project.github}
-                className="absolute right-0 m-2 hover:scale-110 hover:opacity-70 inline-block"
-              >
-                <Image
-                  width={25}
-                  height={25}
-                  src="/icons/github.svg"
-                  alt="github logo"
-                />
-              </Link>
-              <Link href={project.path} target="_blank">
-                <Image
-                  className="rounded-t-lg w-full"
-                  width={400}
-                  height={200}
-                  src={project.img}
-                  alt={project.title}
-                />
-              </Link>
-              <div className="p-5">
-                <Link href={project.path} className="flex">
-                  <h5
-                    style={{color: project.color}}
-                    className="mb-2 text-base md:text-xl leading-tight text-lime-600 font-bold"
-                  >
-                    {project.title}
-                  </h5>
+                <span
+                  style={{backgroundColor: project.color}}
+                  className="absolute p-1 m-2 rounded-lg"
+                >
+                  {project.level}
+                </span>
+                <Link
+                  target="_blank"
+                  href={project.github}
+                  className="absolute right-0 m-2 hover:scale-110 hover:opacity-70 inline-block"
+                >
+                  <Image
+                    width={25}
+                    height={25}
+                    src="/icons/github.svg"
+                    alt="github logo"
+                  />
                 </Link>
+                <Link href={project.path} target="_blank">
+                  <Image
+                    className="rounded-t-lg w-full"
+                    width={400}
+                    height={200}
+                    src={project.img}
+                    alt={project.title}
+                  />
+                </Link>
+                <div className="p-5">
+                  <Link href={project.path} className="flex">
+                    <h5
+                      style={{color: project.color}}
+                      className="mb-2 text-base md:text-xl leading-tight text-lime-600 font-bold"
+                    >
+                      {project.title}
+                    </h5>
+                  </Link>
 
-                <p className="mb-4 text-sm md:text-base text-[#ffffffb5]">
-                  {project.desc}
-                </p>
-                <div className="flex justify-start">
-                  {project.icons.map((icon) => (
-                    <Image
-                      key={icon.title}
-                      width={70}
-                      height={70}
-                      src={icon.path}
-                      className="w-9 md:w-10 color-[#F7DF1E] p-2"
-                      alt={icon.alt}
-                    />
-                  ))}
+                  <p className="mb-4 text-sm md:text-base text-[#ffffffb5]">
+                    {project.desc}
+                  </p>
+                  <div className="flex justify-start">
+                    {project.icons.map((icon) => (
+                      <Image
+                        key={icon.title}
+                        width={70}
+                        height={70}
+                        src={icon.path}
+                        className="w-9 md:w-10 color-[#F7DF1E] p-2"
+                        alt={icon.alt}
+                      />
+                    ))}
+                  </div>
                 </div>
               </div>
             </div>

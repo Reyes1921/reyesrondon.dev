@@ -146,7 +146,7 @@ export const Skills = () => {
             Frontend
           </h2>
           <Atropos className="my-atropos mt-5 " rotateTouch="scroll-y">
-            <div className="grid md:flex grid-cols-3 md:flex-row justify-around items-center backdrop-brightness-75 border border-lime-600 rounded-xl">
+            <div className="grid md:flex grid-cols-3 md:flex-row justify-around items-center backdrop-brightness-75 border bg-[#0D131E] border-lime-600 rounded-xl">
               {frontend.map((icon) => (
                 <div
                   key={icon.title}
@@ -170,7 +170,7 @@ export const Skills = () => {
                 Backend
               </h2>
               <Atropos className="my-atropos mt-5" rotateTouch="scroll-y">
-                <div className="flex flex-row justify-around md:justify-between items-center backdrop-brightness-75 border border-lime-600 rounded-xl">
+                <div className="flex flex-row justify-around md:justify-between items-center backdrop-brightness-75 border bg-[#0D131E] border-lime-600 rounded-xl">
                   {backend.map((icon) => (
                     <div
                       key={icon.title}
@@ -196,7 +196,7 @@ export const Skills = () => {
                 {dict("bd")}
               </h2>
               <Atropos className="my-atropos mt-5" rotateTouch="scroll-y">
-                <div className="flex flex-row justify-around md:justify-between items-center backdrop-brightness-75 border border-lime-600 rounded-xl">
+                <div className="flex flex-row justify-around md:justify-between items-center backdrop-brightness-75 border bg-[#0D131E] border-lime-600 rounded-xl">
                   {bd.map((icon) => (
                     <div
                       key={icon.title}
@@ -222,7 +222,7 @@ export const Skills = () => {
                 Testing
               </h2>
               <Atropos className="my-atropos mt-5" rotateTouch="scroll-y">
-                <div className="flex flex-row justify-around items-center backdrop-brightness-75 border border-lime-600 rounded-xl">
+                <div className="flex flex-row justify-around items-center backdrop-brightness-75 border bg-[#0D131E] border-lime-600 rounded-xl">
                   {testing.map((icon) => (
                     <div
                       key={icon.title}
@@ -249,7 +249,7 @@ export const Skills = () => {
             {dict("tools")}
           </h2>
           <Atropos className="my-atropos mt-5" rotateTouch="scroll-y">
-            <div className="grid md:flex grid-cols-3 md:flex-row justify-between items-center backdrop-brightness-75 border border-lime-600 rounded-xl">
+            <div className="grid md:flex grid-cols-3 md:flex-row justify-between items-center backdrop-brightness-75 border bg-[#0D131E] border-lime-600 rounded-xl">
               {tools.map((icon) => (
                 <div
                   key={icon.title}
