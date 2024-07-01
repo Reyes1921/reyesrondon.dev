@@ -93,7 +93,7 @@ export const Project = () => {
                 } as React.CSSProperties
               }
               key={i}
-              className="relative inline-flex overflow-hidden rounded-lg p-[1.5px] shadow-drop-center hover:scale-105 ease-in-out duration-500"
+              className="relative inline-flex overflow-hidden rounded-lg p-[1px] shadow-drop-center hover:scale-105 ease-in-out duration-500"
             >
               <span
                 style={
@@ -101,7 +101,7 @@ export const Project = () => {
                     "--color": project.color,
                   } as React.CSSProperties
                 }
-                className="absolute inset-[-1000%] animate-[spin_8s_linear_infinite] gradientBroder"
+                className="absolute inset-[-1000%] animate-[spin_6s_linear_infinite] gradientBroder"
               ></span>
               <div
                 style={{borderColor: project.color}}

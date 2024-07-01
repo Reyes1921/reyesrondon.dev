@@ -24,7 +24,7 @@ export const Intro = () => {
           height={150}
           src="/reyes-rondon.webp"
           alt="Reyes Rondon"
-          className="rounded-full border-4 border-lime-600 w-4/5"
+          className="rounded-full border-4 border-lime-600 w-4/5 animate-shadow-drop-center"
         />
       </div>
     </article>
