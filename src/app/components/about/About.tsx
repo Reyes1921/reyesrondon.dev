@@ -21,26 +21,19 @@ export const About = () => {
             className="rounded-full border-4 border-lime-600 md:mr-6 w-2/5 md:w-44"
           />
         </div>
-        <p className="text-base md:text-xl text-center md:text-left tracking-tight text-[#ffffffb5]">
-          {dict("text")}
+        <p className="text-base md:text-xl text-center md:text-left tracking-tight text-[#ffffffb5] ">
+          {dict("text_1")}
+          <span className="text-[#65a30d]"> React</span>,
+          <span className="text-[#65a30d]"> PHP</span>,
+          <span className="text-[#65a30d]"> MySQL</span> {dict("text_2")}
+          <span className="text-[#65a30d]"> WordPress</span>, {dict("text_3")}
+          <span className="text-[#65a30d]"> HTML</span>,
+          <span className="text-[#65a30d]"> CSS</span>,
+          <span className="text-[#65a30d]"> JavaScript</span>,
+          <span className="text-[#65a30d]"> MySQL</span>,
+          <span className="text-[#65a30d]"> React</span>,
+          <span className="text-[#65a30d]"> TypeScript</span> {dict("text_4")}
         </p>
-        {/* <p className="text-xl text-center md:text-left">
-          Ingeniero en informática con más de 4 años de experiencia en el
-          desarrollo y mantenimiento de aplicaciones web con
-          <span className="text-green-400"> React</span>,
-          <span className="text-green-400"> PHP</span>,
-          <span className="text-green-400"> MySQL</span> y
-          <span className="text-green-400"> WordPress</span>, desde marcas
-          personales hasta tiendas online. Tengo profundos conocimientos en
-          <span className="text-green-400"> HTML</span>,
-          <span className="text-green-400"> CSS</span>,
-          <span className="text-green-400"> JavaScript</span>,
-          <span className="text-green-400"> MySQL</span>,
-          <span className="text-green-400"> React</span>,
-          <span className="text-green-400"> TypeScript</span> y diseño web.
-          Recientemente, trabajé en Wordpress Hilfe & Support Berlin, donde cree
-          más de 30 páginas web.
-        </p> */}
       </div>
     </article>
   )

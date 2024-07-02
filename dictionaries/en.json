@@ -17,13 +17,16 @@
   },
   "Intro": {
     "level": "Computer Engineer",
-    "text": "I have more than 4 years of experience developing and maintaining web applications with React, PHP, MySQL and WordPress."
+    "text": "I have more than 4 years of experience developing and maintaining web applications with",
+    "text_1": "and"
   },
   "Experience": {
     "title": "Experience",
-    "remote": "Remote",
+    "remote": " Remote",
     "dates": "July 2019 - January 2024",
-    "text": "I adapted and created plugins using HTML, CSS, JavaScript, JQuery, MySQL and PHP, and led a team of developers to meet project deadlines."
+    "text_1": "I adapted and created plugins using ",
+    "text_2": "and",
+    "text_3": ", and led a team of developers to meet project deadlines."
   },
   "Projects": {
     "title": "Projects",
@@ -46,7 +49,10 @@
   },
   "About": {
     "title": "About me",
-    "text": "Computer engineer with more than 4 years of experience developing and maintaining web applications with React, PHP, MySQL and WordPress, from personal brands to online stores. I have deep knowledge in HTML, CSS, JavaScript, MySQL, React, TypeScript and web design. Recently, I worked at Wordpress Hilfe & Support Berlin, where I created more than 30 websites."
+    "text_1": "Computer engineer with more than 4 years of experience in the development and maintenance of web applications with",
+    "text_2": "and",
+    "text_3": "from personal brands to online stores. I have deep knowledge in",
+    "text_4": "most recently, I worked at Wordpress Hilfe & Support Berlin, where I created more than 30 websites."
   },
   "Links": {
     "github": "https://github.com/Reyes1921",
