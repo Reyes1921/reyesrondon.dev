@@ -13,7 +13,7 @@ export const Experiencie = () => {
         </h2>
         <ul className="timeline timeline-snap-icon timeline-compact timeline-vertical flex flex-start">
           <li>
-            <hr className="bg-[#65a30d]" />
+            <hr className="bg-lime-600" />
             <div className="timeline-middle">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -30,28 +30,28 @@ export const Experiencie = () => {
             </div>
             <div className="timeline-end mb-10">
               <div>
-                <span className="text-[#65a30d] text-lg font-black">
+                <span className="text-lime-600 text-lg font-black">
                   Full-Stack WordPress Developer
                 </span>
                 <span> - </span>
                 <span className="text-base font-normal">
                   Wordpress Hilfe & Support Berlin,
-                  <span className="text-[#65a30d]">{dict("remote")}</span>
+                  <span className="text-lime-600">{dict("remote")}</span>
                 </span>
               </div>
               <time className="font-mono italic">{dict("dates")}</time>
               <p className="text-left md:text-start text-base md:text-xl mt-3 text-[#ffffffb5]">
                 {dict("text_1")}
-                <span className="text-[#65a30d]"> HTML</span>,
-                <span className="text-[#65a30d]"> CSS</span>,
-                <span className="text-[#65a30d]"> JavaScript</span>,
-                <span className="text-[#65a30d]"> JQuery</span>,
-                <span className="text-[#65a30d]"> MySQL</span> {dict("text_2")}
-                <span className="text-[#65a30d]"> PHP</span>
+                <span className="text-lime-600"> HTML</span>,
+                <span className="text-lime-600"> CSS</span>,
+                <span className="text-lime-600"> JavaScript</span>,
+                <span className="text-lime-600"> JQuery</span>,
+                <span className="text-lime-600"> MySQL</span> {dict("text_2")}
+                <span className="text-lime-600"> PHP</span>
                 {dict("text_3")}
               </p>
             </div>
-            <hr className="bg-[#65a30d]" />
+            <hr className="bg-lime-600" />
           </li>
         </ul>
       </div>

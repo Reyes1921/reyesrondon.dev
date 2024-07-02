@@ -23,16 +23,16 @@ export const About = () => {
         </div>
         <p className="text-base md:text-xl text-center md:text-left tracking-tight text-[#ffffffb5] ">
           {dict("text_1")}
-          <span className="text-[#65a30d]"> React</span>,
-          <span className="text-[#65a30d]"> PHP</span>,
-          <span className="text-[#65a30d]"> MySQL</span> {dict("text_2")}
-          <span className="text-[#65a30d]"> WordPress</span>, {dict("text_3")}
-          <span className="text-[#65a30d]"> HTML</span>,
-          <span className="text-[#65a30d]"> CSS</span>,
-          <span className="text-[#65a30d]"> JavaScript</span>,
-          <span className="text-[#65a30d]"> MySQL</span>,
-          <span className="text-[#65a30d]"> React</span>,
-          <span className="text-[#65a30d]"> TypeScript</span> {dict("text_4")}
+          <span className=" text-lime-600"> React</span>,
+          <span className=" text-lime-600"> PHP</span>,
+          <span className=" text-lime-600"> MySQL</span> {dict("text_2")}
+          <span className=" text-lime-600"> WordPress</span>, {dict("text_3")}
+          <span className=" text-lime-600"> HTML</span>,
+          <span className=" text-lime-600"> CSS</span>,
+          <span className=" text-lime-600"> JavaScript</span>,
+          <span className=" text-lime-600"> MySQL</span>,
+          <span className=" text-lime-600"> React</span>,
+          <span className=" text-lime-600"> TypeScript</span> {dict("text_4")}
         </p>
       </div>
     </article>

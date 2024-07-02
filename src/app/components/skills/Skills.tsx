@@ -259,10 +259,12 @@ export const Skills = () => {
                     width={150}
                     height={150}
                     src={icon.path}
-                    className="w-7 md:w-10 color-[#F7DF1E]"
+                    className="w-7 md:w-10 "
                     alt={icon.alt}
                   />
-                  <span className="text-xs mt-2 text-center">{icon.title}</span>
+                  <span className="text-xs mt-2 text-center ">
+                    {icon.title}
+                  </span>
                 </div>
               ))}
             </div>
