@@ -5,15 +5,15 @@ export const Nav = () => {
   const dict = useTranslations("Header")
   const items = [
     {
-      path: "/#experience",
+      path: dict("experience_path"),
       title: dict("experience"),
     },
     {
-      path: "/#projects",
+      path: dict("projects_path"),
       title: dict("projects"),
     },
     {
-      path: "/#about",
+      path: dict("about_path"),
       title: dict("about"),
     },
   ]

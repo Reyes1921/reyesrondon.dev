@@ -9,8 +9,11 @@
     "logo": "/es.svg",
     "alt": "Bandera de España",
     "experience": "Experiencia",
+    "experience_path": "es/#experience",
     "projects": "Proyectos",
-    "about": "Sobre mi"
+    "projects_path": "es/#projects",
+    "about": "Sobre mi",
+    "about_path": "es/#about"
   },
   "Intro": {
     "level": "Ingeniero en Informática",

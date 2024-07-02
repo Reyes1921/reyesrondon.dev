@@ -9,8 +9,11 @@
     "logo": "/us.svg",
     "alt": "Flag of United States",
     "experience": "Experience",
+    "experience_path": "en/#experience",
     "projects": "Projects",
-    "about": "About me"
+    "projects_path": "en/#projects",
+    "about": "About me",
+    "about_path": "en/#about"
   },
   "Intro": {
     "level": "Computer Engineer",

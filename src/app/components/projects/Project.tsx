@@ -80,7 +80,7 @@ export const Project = () => {
       <div className="px-10 py-5 w-full">
         <h2
           id="projects"
-          className="text-3xl md:text-5xl text-center pb-2 font-bold mb-5 mt-4"
+          className="text-3xl md:text-5xl text-center pb-2 font-bold mb-5 mt-4 scroll-mt-20"
         >
           {dict("title")}
         </h2>

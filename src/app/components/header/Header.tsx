@@ -12,7 +12,7 @@ export const Header = () => {
           <Nav />
         </nav>
         <Link href={dict("path")} className="">
-          <button className="button-flag hover:scale-110 hover:opacity-70 inline-block">
+          <button className="flex items-center border-2 border-transparent rounded-xl  hover:scale-110 hover:opacity-70">
             <Image
               src={dict("logo")}
               height={20}

@@ -8,7 +8,7 @@ export const About = () => {
       <div className="px-10 py-5 w-full ">
         <h2
           id="about"
-          className="text-3xl md:text-5xl text-center pb-2 font-bold mb-5 mt-4"
+          className="text-3xl md:text-5xl text-center pb-2 font-bold mb-5 mt-4 scroll-mt-20"
         >
           {dict("title")}
         </h2>
@@ -27,17 +27,17 @@ export const About = () => {
         {/* <p className="text-xl text-center md:text-left">
           Ingeniero en informática con más de 4 años de experiencia en el
           desarrollo y mantenimiento de aplicaciones web con
-          <span className="spanColor"> React</span>,
-          <span className="spanColor"> PHP</span>,
-          <span className="spanColor"> MySQL</span> y
-          <span className="spanColor"> WordPress</span>, desde marcas personales
-          hasta tiendas online. Tengo profundos conocimientos en
-          <span className="spanColor"> HTML</span>,
-          <span className="spanColor"> CSS</span>,
-          <span className="spanColor"> JavaScript</span>,
-          <span className="spanColor"> MySQL</span>,
-          <span className="spanColor"> React</span>,
-          <span className="spanColor"> TypeScript</span> y diseño web.
+          <span className="text-green-400"> React</span>,
+          <span className="text-green-400"> PHP</span>,
+          <span className="text-green-400"> MySQL</span> y
+          <span className="text-green-400"> WordPress</span>, desde marcas
+          personales hasta tiendas online. Tengo profundos conocimientos en
+          <span className="text-green-400"> HTML</span>,
+          <span className="text-green-400"> CSS</span>,
+          <span className="text-green-400"> JavaScript</span>,
+          <span className="text-green-400"> MySQL</span>,
+          <span className="text-green-400"> React</span>,
+          <span className="text-green-400"> TypeScript</span> y diseño web.
           Recientemente, trabajé en Wordpress Hilfe & Support Berlin, donde cree
           más de 30 páginas web.
         </p> */}
