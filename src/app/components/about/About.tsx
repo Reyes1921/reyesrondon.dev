@@ -8,7 +8,7 @@ export const About = () => {
       <div className="px-10 py-5 w-full ">
         <h2
           id="about"
-          className="text-3xl md:text-5xl text-center pb-2 font-bold mb-5 mt-4 scroll-mt-20"
+          className="text-3xl md:text-5xl text-center pb-2 font-bold mb-5 mt-4 scroll-mt-20 text-black dark:text-white"
         >
           {dict("title")}
         </h2>
@@ -21,7 +21,7 @@ export const About = () => {
             className="rounded-full border-4 border-lime-600 md:mr-6 w-2/5 md:w-44"
           />
         </div>
-        <p className="text-base md:text-xl text-center md:text-left tracking-tight text-[#ffffffb5] ">
+        <p className="text-base md:text-xl text-center md:text-left tracking-tight text-black dark:text-[#ffffffb5] ">
           {dict("text_1")}
           <span className=" text-lime-600"> React</span>,
           <span className=" text-lime-600"> PHP</span>,

@@ -7,7 +7,7 @@ export const Experiencie = () => {
       <div className="px-10 py-5 w-full">
         <h2
           id="experience"
-          className="text-3xl md:text-5xl text-center pb-2 font-bold mb-5 mt-4 scroll-mt-20"
+          className="text-3xl md:text-5xl text-center pb-2 font-bold mb-5 mt-4 scroll-mt-20 text-black dark:text-white"
         >
           {dict("title")}
         </h2>
@@ -29,7 +29,7 @@ export const Experiencie = () => {
               </svg>
             </div>
             <div className="timeline-end mb-10">
-              <div>
+              <div className="text-black dark:text-white">
                 <span className="text-lime-600 text-lg font-black">
                   Full-Stack WordPress Developer
                 </span>
@@ -39,8 +39,10 @@ export const Experiencie = () => {
                   <span className="text-lime-600">{dict("remote")}</span>
                 </span>
               </div>
-              <time className="font-mono italic">{dict("dates")}</time>
-              <p className="text-left md:text-start text-base md:text-xl mt-3 text-[#ffffffb5]">
+              <time className="font-mono italic text-black dark:text-white">
+                {dict("dates")}
+              </time>
+              <p className="text-left md:text-start text-base md:text-xl mt-3 text-black dark:text-[#ffffffb5]">
                 {dict("text_1")}
                 <span className="text-lime-600"> HTML</span>,
                 <span className="text-lime-600"> CSS</span>,

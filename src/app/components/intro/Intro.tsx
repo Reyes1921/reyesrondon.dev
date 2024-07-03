@@ -7,7 +7,7 @@ export const Intro = () => {
   return (
     <article className="flex items-center justify-center flex-col-reverse md:flex-row">
       <div className="px-10 py-5 md:w-11/12 text-center mx-auto">
-        <h1 className="text-3xl md:text-5xl pb-2 font-bold text-center md:text-left main-heading ">
+        <h1 className="text-3xl md:text-5xl pb-2 font-bold text-center md:text-left main-heading text-black dark:text-white">
           <span className="text-lime-600">{"<"} </span>
           Reyes Rondón
           <span className="text-lime-600"> {"/>"}</span>
@@ -15,7 +15,7 @@ export const Intro = () => {
         <span className="flex justify-between flex-col md:flex-row pb-4 text-lime-600 text-base md:text-xl">
           <p>{dict("level")}</p>
         </span>
-        <p className="text-center md:text-start text-base md:text-xl text-[#ffffffb5]">
+        <p className="text-center md:text-start text-base md:text-xl  text-black dark:text-[#ffffffb5]">
           {dict("text")} <span className="text-lime-600"> React</span>,
           <span className="text-lime-600"> PHP</span>,
           <span className="text-lime-600"> MySQL</span> {dict("text_1")}

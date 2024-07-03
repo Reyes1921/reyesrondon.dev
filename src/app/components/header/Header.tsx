@@ -2,6 +2,7 @@ import {Nav} from "../nav/Nav"
 import Link from "next/link"
 import Image from "next/image"
 import {useTranslations} from "next-intl"
+import {DarkMode} from "../index"
 
 export const Header = () => {
   const dict = useTranslations("Header")
@@ -11,8 +12,10 @@ export const Header = () => {
         <nav className="mx-auto">
           <Nav />
         </nav>
+        <div className="flex"></div>
+        <DarkMode />
         <Link href={dict("path")} className="">
-          <button className="flex items-center border-2 border-transparent rounded-xl  hover:scale-110 hover:opacity-70">
+          <button className="flex items-center border-2 border-transparent rounded-xl hover:scale-110 hover:opacity-70">
             <Image
               src={dict("logo")}
               height={20}
@@ -20,7 +23,7 @@ export const Header = () => {
               alt={dict("alt")}
               className="md:pr-1"
             />
-            <span className="text-xs md:text-base font-normal hidden md:block">
+            <span className="text-xs md:text-base font-normal hidden md:block text-black dark:text-white">
               {dict("title")}
             </span>
           </button>

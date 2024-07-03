@@ -137,7 +137,7 @@ export const Skills = () => {
       <div className="px-10 py-5 w-full">
         <h2
           id="projects"
-          className="text-3xl md:text-5xl text-center pb-2 font-bold mb-5 mt-4"
+          className="text-3xl md:text-5xl text-center pb-2 font-bold mb-5 mt-4 text-black dark:text-white"
         >
           {dict("title")}
         </h2>
@@ -150,7 +150,7 @@ export const Skills = () => {
               {frontend.map((icon) => (
                 <div
                   key={icon.title}
-                  className="flex flex-col flex-justify items-center p-4"
+                  className="flex flex-col flex-justify items-center p-4 text-white"
                 >
                   <Image
                     width={150}
@@ -174,7 +174,7 @@ export const Skills = () => {
                   {backend.map((icon) => (
                     <div
                       key={icon.title}
-                      className="flex flex-col flex-justify items-center p-4"
+                      className="flex flex-col flex-justify items-center p-4 text-white"
                     >
                       <Image
                         width={150}
@@ -200,7 +200,7 @@ export const Skills = () => {
                   {bd.map((icon) => (
                     <div
                       key={icon.title}
-                      className="flex flex-col flex-justify items-center p-4"
+                      className="flex flex-col flex-justify items-center p-4 text-white"
                     >
                       <Image
                         width={150}
@@ -226,7 +226,7 @@ export const Skills = () => {
                   {testing.map((icon) => (
                     <div
                       key={icon.title}
-                      className="flex flex-col flex-justify items-center p-4"
+                      className="flex flex-col flex-justify items-center p-4 text-white"
                     >
                       <Image
                         width={150}
@@ -253,7 +253,7 @@ export const Skills = () => {
               {tools.map((icon) => (
                 <div
                   key={icon.title}
-                  className="flex flex-col flex-justify items-center p-4"
+                  className="flex flex-col flex-justify items-center p-4 text-white"
                 >
                   <Image
                     width={150}
