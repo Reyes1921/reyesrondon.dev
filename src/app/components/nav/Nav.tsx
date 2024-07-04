@@ -26,7 +26,7 @@ export const Nav = () => {
         >
           <Link
             href={item.path}
-            className="text-xs md:text-base p-4 text-black dark:text-white"
+            className="text-xs md:text-base p-3 text-black dark:text-white"
           >
             {item.title}
           </Link>
