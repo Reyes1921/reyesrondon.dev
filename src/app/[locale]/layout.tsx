@@ -1,9 +1,9 @@
 import {Nunito} from "next/font/google"
 import {NextIntlClientProvider} from "next-intl"
 import {getMessages, getTranslations} from "next-intl/server"
+import {cookies} from "next/headers"
 import {Footer, Header} from "../components"
 import "./globals.css"
-
 interface RootMetadata {
   params: {locale: string}
 }
@@ -35,9 +35,11 @@ export default async function RootLayout({
   params: {locale},
 }: Readonly<RootLayoutProps>) {
   const dictionaries = await getMessages()
+  const cookieStore = cookies()
+  const theme = cookieStore.get("theme")?.value === "dark" ? "dark" : ""
 
   return (
-    <html lang={locale}>
+    <html lang={locale} className={theme}>
       <body
         className={`
           ${inter.className}

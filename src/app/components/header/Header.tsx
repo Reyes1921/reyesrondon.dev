@@ -6,6 +6,7 @@ import {DarkMode} from "../index"
 
 export const Header = () => {
   const dict = useTranslations("Header")
+
   return (
     <header className="w-full fixed top-0 left-0 z-20 py-3 md:py-5 backdrop-blur-sm">
       <div className="flex justify-center items-center md:max-w-[850px] mx-auto px-10">

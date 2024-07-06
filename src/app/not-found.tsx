@@ -1,26 +1,27 @@
 "use client"
 import Link from "next/link"
 import {useEffect} from "react"
+import {setCookie, getCookie, hasCookie} from "cookies-next"
 
 export default function NotFound() {
   useEffect(() => {
     if (
-      localStorage.theme === "dark" ||
-      (!("theme" in localStorage) &&
+      getCookie("theme") === "dark" ||
+      (!hasCookie("theme") &&
         window.matchMedia("(prefers-color-scheme: dark)").matches)
     ) {
       document.documentElement.classList.add("dark")
-      localStorage.theme = "dark"
+      setCookie("theme", "dark", {maxAge: 2592000})
     } else {
       document.documentElement.classList.remove("dark")
-      localStorage.theme = "light"
+      setCookie("theme", "light", {maxAge: 2592000})
     }
   }, [])
 
   return (
     <html className="flex flex-col justify-center items-center min-h-screen bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-white via-white to-white dark:bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] dark:from-gray-900 dark:via-gray-900 dark:to-black">
       <body>
-        <div className="main animated fadeIn md:min-w-[850px] flex justify-center items-center ">
+        <div className="main md:min-w-[850px] flex justify-center items-center ">
           <div className="flex flex-col justify-center items-center">
             <p className="text-9xl font-bold text-lime-600">404</p>
             <Link href="/">
