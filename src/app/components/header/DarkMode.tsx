@@ -29,7 +29,7 @@ export const DarkMode = () => {
 
   return (
     <button
-      className="mr-5   border-[#111827] dark:border-white rounded-lg p-0.5 "
+      className="mr-2 md:mr-5 border-[#111827] dark:border-white rounded-lg p-0.5 "
       onClick={handleClick}
     >
       <Image
