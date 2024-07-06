@@ -1,7 +1,7 @@
 {
   "Metadata": {
     "title": "Reyes Rondón Desarrolador Web | React, Next.Js, NodeJs, TypeScript.",
-    "description": "Soy Reyes Rondón, Ingeniero en Informática con más de 4 años de experiencia en el desarrollo y mantenimiento de aplicaciones web con React, PHP, MySQL y WordPress."
+    "description": "Soy Reyes Rondón, Ingeniero en Informática con más de 4 años de experiencia en el desarrollo y mantenimiento de aplicaciones web con React, PHP y WordPress."
   },
   "Header": {
     "path": "/en",
@@ -37,7 +37,7 @@
     "shortner_img": "/shortner-url-es.webp",
     "shortner_git": "https://github.com/Reyes1921/shortner-url/blob/main/README.es.md",
     "img_detector_color": "#38bdf8",
-    "img_detector_text": "Extrae de forma fácil y sencilla una variedad de colores de cualquier imagen en formato PNG, JPG, JPEG, SVG, WEBP y GIF",
+    "img_detector_text": "Aplicación para extraer de forma fácil una variedad de colores de cualquier imagen en formato PNG, JPG, JPEG, SVG, WEBP y GIF.",
     "img_detector_path": "https://image-color-detector.vercel.app/",
     "img_detector_img": "/image-color-detector-es.webp",
     "img_detector_git": "https://github.com/Reyes1921/image-color-detector/blob/main/README.es.md"
