@@ -35,12 +35,13 @@ export default async function RootLayout({
   params: {locale},
 }: Readonly<RootLayoutProps>) {
   const dictionaries = await getMessages()
+
   return (
     <html lang={locale}>
       <body
         className={`
           ${inter.className}
-          bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-[#F9FAFB] via-[#F9FAFB] to-[#F9FAFB] dark:bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] dark:from-gray-900 dark:via-gray-900 dark:to-black`}
+          bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-[#F9FAFB] via-[#F9FAFB] to-white dark:bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] dark:from-gray-900 dark:via-gray-900 dark:to-black`}
       >
         <NextIntlClientProvider messages={dictionaries}>
           <Header />
