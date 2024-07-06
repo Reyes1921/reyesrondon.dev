@@ -19,31 +19,37 @@ export const Project = () => {
           path: "/icons/typescript.svg",
           title: "TypeScript",
           alt: "TypeScript logo",
+          color: false,
         },
         {
           path: "/icons/nextdotjs.svg",
           title: "Next.Js",
           alt: "Next.Js logo",
+          color: true,
         },
         {
           path: "/icons/tailwindcss.svg",
           title: "Tailwind CSS",
           alt: "Tailwind CSS logo",
+          color: false,
         },
         {
           path: "/icons/nodedotjs.svg",
           title: "NodeJs",
           alt: "NodeJs logo",
+          color: false,
         },
         {
           path: "/icons/express.svg",
           title: "Express",
           alt: "Express logo",
+          color: true,
         },
         {
           path: "/icons/mongodb.svg",
           title: "MongoDB",
           alt: "MongoDB logo",
+          color: false,
         },
       ],
     },
@@ -60,16 +66,19 @@ export const Project = () => {
           path: "/icons/react.svg",
           title: "React",
           alt: "React logo",
+          color: false,
         },
         {
           path: "/icons/typescript.svg",
           title: "TypeScript",
           alt: "TypeScript logo",
+          color: false,
         },
         {
           path: "/icons/tailwindcss.svg",
           title: "Tailwind CSS",
           alt: "Tailwind CSS logo",
+          color: false,
         },
       ],
     },
@@ -95,17 +104,9 @@ export const Project = () => {
               key={i}
               className="relative inline-flex overflow-hidden rounded-lg p-[1px] shadow-drop-center hover:scale-105 ease-in-out duration-500"
             >
-              <span
-                style={
-                  {
-                    "--color": project.color,
-                  } as React.CSSProperties
-                }
-                className="absolute inset-[-1000%] animate-[spin_6s_linear_infinite] gradientBroder"
-              ></span>
               <div
                 style={{borderColor: project.color}}
-                className=" block rounded-lg shadow-secondary-1 border bg-[rgb(9,12,20)] min-h-3.5 relative"
+                className=" block rounded-lg shadow-secondary-1 border bg-[#E3E6E8] dark:bg-[#0D131E] min-h-3.5 relative"
               >
                 <span
                   style={{backgroundColor: project.color}}
@@ -144,7 +145,7 @@ export const Project = () => {
                     </h5>
                   </Link>
 
-                  <p className="mb-4 text-sm md:text-base text-[#ffffffb5]">
+                  <p className="mb-4 text-sm md:text-base text-black dark:text-[#ffffffb5]">
                     {project.desc}
                   </p>
                   <div className="flex justify-start">
@@ -154,7 +155,9 @@ export const Project = () => {
                         width={70}
                         height={70}
                         src={icon.path}
-                        className="w-9 md:w-10 color-[#F7DF1E] p-2"
+                        className={`w-9 md:w-10 color-[#F7DF1E] p-2 ${
+                          icon.color ? "invert" : "invert-0"
+                        } dark:invert-0`}
                         alt={icon.alt}
                       />
                     ))}

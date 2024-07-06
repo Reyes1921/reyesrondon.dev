@@ -4,133 +4,11 @@ import Atropos from "atropos/react"
 import "atropos/css"
 import Image from "next/image"
 import {useTranslations} from "next-intl"
+import {icons} from "@/app/utils/icons"
 
 export const Skills = () => {
   const dict = useTranslations("Skills")
-  const frontend = [
-    {
-      path: "/icons/html5.svg",
-      title: "HTML",
-      alt: "HTML logo",
-    },
-    {
-      path: "/icons/css3.svg",
-      title: "CSS",
-      alt: "CSS logo",
-    },
-    {
-      path: "/icons/javascript.svg",
-      title: "JavaScript",
-      alt: "JavaScript logo",
-    },
-    {
-      path: "/icons/typescript.svg",
-      title: "TypeScript",
-      alt: "TypeScript logo",
-    },
-    {
-      path: "/icons/react.svg",
-      title: "React",
-      alt: "React logo",
-    },
-    {
-      path: "/icons/nextdotjs.svg",
-      title: "Next.Js",
-      alt: "Next.Js logo",
-    },
-    {
-      path: "/icons/tailwindcss.svg",
-      title: "Tailwind CSS",
-      alt: "Tailwind CSS logo",
-    },
-    {
-      path: "/icons/bootstrap.svg",
-      title: "Bootstrap",
-      alt: "Bootstrap logo",
-    },
-  ]
-
-  const backend = [
-    {
-      path: "/icons/nodedotjs.svg",
-      title: "NodeJs",
-      alt: "NodeJs logo",
-    },
-    {
-      path: "/icons/express.svg",
-      title: "Express",
-      alt: "Express logo",
-    },
-    {
-      path: "/icons/php.svg",
-      title: "PHP",
-      alt: "PHP logo",
-    },
-  ]
-
-  const bd = [
-    {
-      path: "/icons/mongodb.svg",
-      title: "MongoDB",
-      alt: "MongoDB logo",
-    },
-    {
-      path: "/icons/postgresql.svg",
-      title: "PostgreSQL",
-      alt: "PostgreSQL logo",
-    },
-    {
-      path: "/icons/mysql.svg",
-      title: "MySQL",
-      alt: "MySQL logo",
-    },
-  ]
-
-  const testing = [
-    {
-      path: "/icons/jest.svg",
-      title: "Jest",
-      alt: "Jest logo",
-    },
-    {
-      path: "/icons/testinglibrary.svg",
-      title: "Testing Library",
-      alt: "Testing Library logo",
-    },
-  ]
-
-  const tools = [
-    {
-      path: "/icons/git.svg",
-      title: "Git",
-      alt: "Git logo",
-    },
-    {
-      path: "/icons/github.svg",
-      title: "GitHub",
-      alt: "GitHub logo",
-    },
-    {
-      path: "/icons/visualstudio.svg",
-      title: "VSCode",
-      alt: "VSCode logo",
-    },
-    {
-      path: "/icons/npm.svg",
-      title: "npm",
-      alt: "npm logo",
-    },
-    {
-      path: "/icons/gnometerminal.svg",
-      title: "Terminal",
-      alt: "Terminal logo",
-    },
-    {
-      path: "/icons/wordpress.svg",
-      title: "WordPress",
-      alt: "WordPress logo",
-    },
-  ]
+  const {frontend, backend, bd, testing, tools} = icons()
 
   return (
     <article className="flex flex-col items-center justify-center">
@@ -146,17 +24,19 @@ export const Skills = () => {
             Frontend
           </h2>
           <Atropos className="my-atropos mt-5 " rotateTouch="scroll-y">
-            <div className="grid md:flex grid-cols-3 md:flex-row justify-around items-center backdrop-brightness-75 border bg-[#0D131E] border-lime-600 rounded-xl">
+            <div className="grid md:flex grid-cols-3 md:flex-row justify-around items-center backdrop-brightness-75 border bg-[#E3E6E8] dark:bg-[#0D131E] border-lime-600 rounded-xl">
               {frontend.map((icon) => (
                 <div
                   key={icon.title}
-                  className="flex flex-col flex-justify items-center p-4 text-white"
+                  className="flex flex-col flex-justify items-center p-4 text-black dark:text-white"
                 >
                   <Image
                     width={150}
                     height={150}
                     src={icon.path}
-                    className="w-7 md:w-10 color-[#F7DF1E]"
+                    className={`w-7 md:w-10 ${
+                      icon.color ? "invert" : "invert-0"
+                    } dark:invert-0`}
                     alt={icon.alt}
                   />
                   <span className="text-xs mt-2 text-center">{icon.title}</span>
@@ -170,17 +50,19 @@ export const Skills = () => {
                 Backend
               </h2>
               <Atropos className="my-atropos mt-5" rotateTouch="scroll-y">
-                <div className="flex flex-row justify-around md:justify-between items-center backdrop-brightness-75 border bg-[#0D131E] border-lime-600 rounded-xl">
+                <div className="flex flex-row justify-around md:justify-between items-center backdrop-brightness-75 border bg-[#E3E6E8] dark:bg-[#0D131E] border-lime-600 rounded-xl">
                   {backend.map((icon) => (
                     <div
                       key={icon.title}
-                      className="flex flex-col flex-justify items-center p-4 text-white"
+                      className="flex flex-col flex-justify items-center p-4 text-black dark:text-white"
                     >
                       <Image
                         width={150}
                         height={150}
                         src={icon.path}
-                        className="w-7 md:w-10 color-[#F7DF1E]"
+                        className={`w-7 md:w-10 ${
+                          icon.color ? "invert" : "invert-0"
+                        } dark:invert-0`}
                         alt={icon.alt}
                       />
                       <span className="text-xs mt-2 text-center">
@@ -196,17 +78,19 @@ export const Skills = () => {
                 {dict("bd")}
               </h2>
               <Atropos className="my-atropos mt-5" rotateTouch="scroll-y">
-                <div className="flex flex-row justify-around md:justify-between items-center backdrop-brightness-75 border bg-[#0D131E] border-lime-600 rounded-xl">
+                <div className="flex flex-row justify-around md:justify-between items-center backdrop-brightness-75 border bg-[#E3E6E8] dark:bg-[#0D131E] border-lime-600 rounded-xl">
                   {bd.map((icon) => (
                     <div
                       key={icon.title}
-                      className="flex flex-col flex-justify items-center p-4 text-white"
+                      className="flex flex-col flex-justify items-center p-4 text-black dark:text-white"
                     >
                       <Image
                         width={150}
                         height={150}
                         src={icon.path}
-                        className="w-7 md:w-10 color-[#F7DF1E]"
+                        className={`w-7 md:w-10 ${
+                          icon.color ? "invert" : "invert-0"
+                        } dark:invert-0`}
                         alt={icon.alt}
                       />
                       <span className="text-xs mt-2 text-center">
@@ -222,17 +106,19 @@ export const Skills = () => {
                 Testing
               </h2>
               <Atropos className="my-atropos mt-5" rotateTouch="scroll-y">
-                <div className="flex flex-row justify-around items-center backdrop-brightness-75 border bg-[#0D131E] border-lime-600 rounded-xl">
+                <div className="flex flex-row justify-around items-center backdrop-brightness-75 border bg-[#E3E6E8] dark:bg-[#0D131E] border-lime-600 rounded-xl">
                   {testing.map((icon) => (
                     <div
                       key={icon.title}
-                      className="flex flex-col flex-justify items-center p-4 text-white"
+                      className="flex flex-col flex-justify items-center p-4 text-black dark:text-white"
                     >
                       <Image
                         width={150}
                         height={150}
                         src={icon.path}
-                        className="w-7 md:w-10 color-[#F7DF1E]"
+                        className={`w-7 md:w-10 ${
+                          icon.color ? "invert" : "invert-0"
+                        } dark:invert-0`}
                         alt={icon.alt}
                       />
                       <span className="text-xs mt-2 text-center">
@@ -249,17 +135,19 @@ export const Skills = () => {
             {dict("tools")}
           </h2>
           <Atropos className="my-atropos mt-5" rotateTouch="scroll-y">
-            <div className="grid md:flex grid-cols-3 md:flex-row justify-between items-center backdrop-brightness-75 border bg-[#0D131E] border-lime-600 rounded-xl">
+            <div className="grid md:flex grid-cols-3 md:flex-row justify-between items-center backdrop-brightness-75 border bg-[#E3E6E8] dark:bg-[#0D131E] border-lime-600 rounded-xl">
               {tools.map((icon) => (
                 <div
                   key={icon.title}
-                  className="flex flex-col flex-justify items-center p-4 text-white"
+                  className="flex flex-col flex-justify items-center p-4 text-black dark:text-white"
                 >
                   <Image
                     width={150}
                     height={150}
                     src={icon.path}
-                    className="w-7 md:w-10 "
+                    className={`w-7 md:w-10 ${
+                      icon.color ? "invert" : "invert-0"
+                    } dark:invert-0`}
                     alt={icon.alt}
                   />
                   <span className="text-xs mt-2 text-center ">
