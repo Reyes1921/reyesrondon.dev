@@ -43,7 +43,7 @@ export default async function RootLayout({
       <body
         className={`
           ${inter.className}
-          bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-[#F9FAFB] via-[#F9FAFB] to-white dark:bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] dark:from-gray-900 dark:via-gray-900 dark:to-black`}
+          bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-gray-100 via-gray-100 to-gray-400 dark:bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] dark:from-gray-900 dark:via-gray-900 dark:to-black`}
       >
         <NextIntlClientProvider messages={dictionaries}>
           <Header />
