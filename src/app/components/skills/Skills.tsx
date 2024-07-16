@@ -102,7 +102,7 @@ export const Skills = () => {
               </Atropos>
             </div>
             <div>
-              <h2 className="text-center text-lime-600  text-xl md:text-3xl font-bold mb-4 mt-5 pr-2">
+              <h2 className="text-center text-lime-600 text-xl md:text-3xl font-bold mb-4 mt-5 pr-2">
                 Testing
               </h2>
               <Atropos className="my-atropos mt-5" rotateTouch="scroll-y">
@@ -131,7 +131,7 @@ export const Skills = () => {
             </div>
           </div>
 
-          <h2 className="text-center text-lime-600  text-xl md:text-3xl font-bold mb-4 mt-5 pr-2">
+          <h2 className="text-center text-lime-600 text-xl md:text-3xl font-bold mb-4 mt-5 pr-2">
             {dict("tools")}
           </h2>
           <Atropos className="my-atropos mt-5" rotateTouch="scroll-y">
