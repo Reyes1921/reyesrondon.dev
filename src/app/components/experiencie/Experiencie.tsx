@@ -44,13 +44,22 @@ export const Experiencie = () => {
               </time>
               <p className="text-left md:text-start text-base md:text-xl mt-3 text-black dark:text-[#ffffffb5]">
                 {dict("text_1")}
+                <span className="text-lime-600"> WooCommerce</span>,
+                {dict("text_2")}
+                <span className="text-lime-600"> Nextcloud</span>,
+                {dict("text_3")}
+                <span className="text-lime-600"> Elementor</span>
+                {dict("text_4")}
+                <span className="text-lime-600"> Elementor Pro</span>,
+                {dict("text_5")}
+                <span className="text-lime-600"> CI/CD</span> {dict("text_6")}
+                <span className="text-lime-600"> SCRUM</span>
+                {dict("text_7")}
                 <span className="text-lime-600"> HTML</span>,
-                <span className="text-lime-600"> CSS</span>,
                 <span className="text-lime-600"> JavaScript</span>,
                 <span className="text-lime-600"> JQuery</span>,
-                <span className="text-lime-600"> MySQL</span> {dict("text_2")}
-                <span className="text-lime-600"> PHP</span>
-                {dict("text_3")}
+                <span className="text-lime-600"> MySQL</span> {dict("text_4")}
+                <span className="text-lime-600"> PHP</span>.
               </p>
             </div>
             <hr className="bg-lime-600" />

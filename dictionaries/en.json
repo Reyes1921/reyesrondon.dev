@@ -17,16 +17,20 @@
   },
   "Intro": {
     "level": "Computer Engineer",
-    "text": "I have more than 4 years of experience developing and maintaining web applications with",
+    "text": "I have more than 5 years of experience developing and maintaining web applications with",
     "text_1": "and"
   },
   "Experience": {
     "title": "Experience",
     "remote": " Remote",
     "dates": "July 2019 - January 2024",
-    "text_1": "I adapted and created plugins using ",
-    "text_2": "and",
-    "text_3": ", and led a team of developers to meet project deadlines."
+    "text_1": "Adapted and built plugins to extend and add functionality to plugins such as ",
+    "text_2": " file management services such as ",
+    "text_3": " and page editors such as",
+    "text_4": " and",
+    "text_5": " implementing",
+    "text_6": " and methodologies such as ",
+    "text_7": " as well as the following technologies:"
   },
   "Projects": {
     "title": "Projects",
@@ -49,7 +53,7 @@
   },
   "About": {
     "title": "About me",
-    "text_1": "Computer engineer with more than 4 years of experience in the development and maintenance of web applications with",
+    "text_1": "Computer engineer with more than 5 years of experience in the development and maintenance of web applications with",
     "text_2": "and",
     "text_3": "from personal brands to online stores. I have deep knowledge in",
     "text_4": "most recently, I worked at Wordpress Hilfe & Support Berlin, where I created more than 30 websites."
@@ -57,6 +61,6 @@
   "Links": {
     "github": "https://github.com/Reyes1921",
     "linkedin": "https://www.linkedin.com/in/reyes-rondon/?locale=en_US",
-    "cv": "/cv-reyes-rondon-en.pdf"
+    "cv": "/Reyes Rondón CV En.pdf"
   }
 }

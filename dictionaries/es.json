@@ -17,16 +17,20 @@
   },
   "Intro": {
     "level": "Ingeniero en Informática",
-    "text": "Tengo más de 4 años de experiencia en el desarrollo y mantenimiento de aplicaciones web con",
+    "text": "Tengo más de 5 años de experiencia en el desarrollo y mantenimiento de aplicaciones web con",
     "text_1": "y"
   },
   "Experience": {
     "title": "Experiencia",
     "remote": " Remoto",
     "dates": "Julio 2019 - Enero 2024",
-    "text_1": "Adapté y creé plugins utilizando ",
-    "text_2": "y",
-    "text_3": ", además lideré un equipo de desarrolladores para cumplir con los plazos de los proyectos."
+    "text_1": "Adapte y construí plugins para extender y añadir funcionalidades de plugins como ",
+    "text_2": " servicios de gestión de archivos como ",
+    "text_3": " y editores de páginas como",
+    "text_4": " y",
+    "text_5": " implementando prácticas de",
+    "text_6": " y metodologías",
+    "text_7": " asi como las siguientes tecnologías"
   },
   "Projects": {
     "title": "Proyectos",
@@ -57,6 +61,6 @@
   "Links": {
     "github": "https://github.com/Reyes1921",
     "linkedin": "https://www.linkedin.com/in/reyes-rondon/",
-    "cv": "/cv-reyes-rondon.pdf"
+    "cv": "/Reyes Rondón CV Es.pdf"
   }
 }
