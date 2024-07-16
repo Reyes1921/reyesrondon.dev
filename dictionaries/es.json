@@ -23,14 +23,21 @@
   "Experience": {
     "title": "Experiencia",
     "remote": " Remoto",
-    "dates": "Julio 2019 - Enero 2024",
+    "dates_1": "Julio 2019 - Enero 2024",
     "text_1": "Adapte y construí plugins para extender y añadir funcionalidades de plugins como ",
     "text_2": " servicios de gestión de archivos como ",
     "text_3": " y editores de páginas como",
     "text_4": " y",
     "text_5": " implementando prácticas de",
     "text_6": " y metodologías",
-    "text_7": " asi como las siguientes tecnologías"
+    "text_7": " asi como las siguientes tecnologías",
+    "lvl_2": "Desarrollador Frontend",
+    "dates_2": "Enero 2020 – Agosto 2022",
+    "text_8": "Desarrolle 6 páginas webs con ",
+    "text_9": " Implemente prácticas de ",
+    "text_10": " para la reducción de errores en el desarrollo páginas webs con",
+    "text_11": " Lidere la mejora del rendimiento en 5 sitios webs desarrollados con",
+    "text_12": " disminuyendo sus tiempos de carga hasta un 40%."
   },
   "Projects": {
     "title": "Proyectos",

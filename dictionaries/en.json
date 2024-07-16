@@ -23,14 +23,21 @@
   "Experience": {
     "title": "Experience",
     "remote": " Remote",
-    "dates": "July 2019 - January 2024",
+    "dates_1": "July 2019 - January 2024",
     "text_1": "Adapted and built plugins to extend and add functionality to plugins such as ",
     "text_2": " file management services such as ",
     "text_3": " and page editors such as",
     "text_4": " and",
     "text_5": " implementing",
     "text_6": " and methodologies such as ",
-    "text_7": " as well as the following technologies:"
+    "text_7": " as well as the following technologies:",
+    "lvl_2": "Frontend Developer",
+    "dates_2": "January 2020 – August 2022",
+    "text_8": "Developed 6 web pages with ",
+    "text_9": " Implement practices of ",
+    "text_10": " for the reduction of errors in the development of web pages with",
+    "text_11": " Lead the performance improvement of 5 websites developed with",
+    "text_12": " reducing their loading times by up to 40%."
   },
   "Projects": {
     "title": "Projects",

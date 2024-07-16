@@ -40,7 +40,7 @@ export const Experiencie = () => {
                 </span>
               </div>
               <time className="font-mono italic text-black dark:text-white">
-                {dict("dates")}
+                {dict("dates_1")}
               </time>
               <p className="text-left md:text-start text-base md:text-xl mt-3 text-black dark:text-[#ffffffb5]">
                 {dict("text_1")}
@@ -60,6 +60,52 @@ export const Experiencie = () => {
                 <span className="text-lime-600"> JQuery</span>,
                 <span className="text-lime-600"> MySQL</span> {dict("text_4")}
                 <span className="text-lime-600"> PHP</span>.
+              </p>
+            </div>
+            <hr className="bg-lime-600" />
+          </li>
+
+          <li>
+            <hr className="bg-lime-600" />
+            <div className="timeline-middle">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+                className="h-5 w-5"
+              >
+                <path
+                  fillRule="evenodd"
+                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+                  clipRule="evenodd"
+                />
+              </svg>
+            </div>
+            <div className="timeline-end mb-10">
+              <div className="text-black dark:text-white">
+                <span className="text-lime-600 text-lg font-black">
+                  {dict("lvl_2")}
+                </span>
+                <span> - </span>
+                <span className="text-base font-normal">Freelance</span>
+              </div>
+              <time className="font-mono italic text-black dark:text-white">
+                {dict("dates_2")}
+              </time>
+              <p className="text-left md:text-start text-base md:text-xl mt-3 text-black dark:text-[#ffffffb5]">
+                {dict("text_8")}
+                <span className="text-lime-600"> React</span> {dict("text_4")}
+                <span className="text-lime-600"> Material UI</span>.
+                {dict("text_9")}
+                <span className="text-lime-600"> CI/CD</span>
+                {dict("text_10")}
+                <span className="text-lime-600"> React</span>,
+                <span className="text-lime-600"> TypeScript</span>
+                {dict("text_4")}
+                <span className="text-lime-600"> Tailwind CSS</span>.
+                {dict("text_11")}
+                <span className="text-lime-600"> React</span>
+                {dict("text_12")}
               </p>
             </div>
             <hr className="bg-lime-600" />
