@@ -82,6 +82,35 @@ export const Project = () => {
         },
       ],
     },
+    {
+      color: dict("movie_finder_color"),
+      title: "Movie Finder",
+      desc: dict("movie_finder_text"),
+      img: dict("movie_finder_img"),
+      path: dict("movie_finder_path"),
+      level: "Frontend",
+      github: dict("movie_finder_git"),
+      icons: [
+        {
+          path: "/icons/react.svg",
+          title: "React",
+          alt: "React logo",
+          color: false,
+        },
+        {
+          path: "/icons/tailwindcss.svg",
+          title: "Tailwind CSS",
+          alt: "Tailwind CSS logo",
+          color: false,
+        },
+        {
+          path: "/icons/themoviedatabase.svg",
+          title: "The Movie Database",
+          alt: "The Movie Database logo",
+          color: false,
+        },
+      ],
+    },
   ]
 
   return (

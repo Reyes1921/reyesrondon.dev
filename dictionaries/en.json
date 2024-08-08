@@ -51,7 +51,12 @@
     "img_detector_text": "Application to easily extract a variety of colors from any image in PNG, JPG, JPEG, SVG, WEBP and GIF format.",
     "img_detector_path": "https://image-color-detector.vercel.app/",
     "img_detector_img": "/image-color-detector-en.webp",
-    "img_detector_git": "https://github.com/Reyes1921/image-color-detector/blob/main/README.md"
+    "img_detector_git": "https://github.com/Reyes1921/image-color-detector/blob/main/README.md",
+    "movie_finder_color": "#2074F6",
+    "movie_finder_text": "Application to view information about movies and series from all over the world using the amazing API of The Movie Database (TMDB).",
+    "movie_finder_path": "https://movie-finder-3000.netlify.app/",
+    "movie_finder_img": "/movie-finder-en.webp",
+    "movie_finder_git": "https://github.com/Reyes1921/movie-finder/blob/main/README.md"
   },
   "Skills": {
     "title": "Technologies",
