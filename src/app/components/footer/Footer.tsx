@@ -51,7 +51,7 @@ export const Footer = () => {
             </Link>
           ))}
         </div>
-        <p className="p-2 text-black dark:text-white"> Reyes Rondón</p>
+        <p className="p-2 text-black  dark:text-white"> Reyes Rondón</p>
       </div>
     </footer>
   )
