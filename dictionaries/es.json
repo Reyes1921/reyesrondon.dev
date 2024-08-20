@@ -5,9 +5,9 @@
   },
   "Header": {
     "path": "/en",
-    "title": "Es",
-    "logo": "/es.svg",
-    "alt": "Bandera de España",
+    "title": "En",
+    "logo": "/us.svg",
+    "alt": "Bandera de Estados Unidos",
     "experience": "Experiencia",
     "experience_path": "es/#experience",
     "projects": "Proyectos",

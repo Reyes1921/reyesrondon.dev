@@ -5,9 +5,9 @@
   },
   "Header": {
     "path": "/es",
-    "title": "En",
-    "logo": "/us.svg",
-    "alt": "Flag of United States",
+    "title": "Es",
+    "logo": "/es.svg",
+    "alt": "Flag of Spain",
     "experience": "Experience",
     "experience_path": "en/#experience",
     "projects": "Projects",
