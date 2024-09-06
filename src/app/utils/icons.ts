@@ -43,6 +43,18 @@ export const icons = () => {
       color: false,
     },
     {
+      path: "/icons/shadcnui.svg",
+      title: "Shadcn/ui",
+      alt: "Shadcn/ui logo",
+      color: true,
+    },
+    {
+      path: "/icons/mui.svg",
+      title: "MUI",
+      alt: "mui logo",
+      color: false,
+    },
+    {
       path: "/icons/bootstrap.svg",
       title: "Bootstrap",
       alt: "Bootstrap logo",
