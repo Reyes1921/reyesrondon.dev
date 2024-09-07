@@ -1,36 +1,44 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+[![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/Reyes1921/reyesrondon.dev/blob/main/README.md)
+[![es](https://img.shields.io/badge/lang-es-yellow.svg)](https://github.com/Reyes1921/reyesrondon.dev/blob/main/README.es.md)
 
-## Getting Started
+# reyesrondon.dev
+
+Personal web site!
+
+## 👨‍💻 Technologies used
+
+- [**React 18**](https://react.dev/) - The library for web and native user interfaces.
+- [**Next.js 14**](https://nextjs.org/) - The React Framework for the Web
+- [**TypeScript**](https://www.typescriptlang.org/) - TypeScript is a strongly typed programming language that builds on JavaScript.
+- [**Tailwindcss**](https://tailwindcss.com/) - A utility-first CSS framework.
+- [**next-intl**](https://next-intl-docs.vercel.app/) - Internationalization for Next.js
+- [**Prettier**](https://prettier.io/) + [prettier-plugin-tailwindcss](https://github.com/tailwindlabs/prettier-plugin-tailwindcss) - CSS formatter.
+- [**atroposjs**](https://atroposjs.com/) - Atropos is a lightweight, free and open-source JavaScript library to create stunning touch-friendly 3D parallax hover effects.
+- [**cookies-next**](https://www.npmjs.com/package/cookies-next) - Getting, setting and removing cookies on both client and server with next.js
+
+## 🚀 Getting Started
 
 First, run the development server:
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Application opens on port 3000
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+<img src='./public//github/portfolio-en.webp'>
+<div align="center">
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+![Static Badge](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=ffffff)
+![Static Badge](https://img.shields.io/badge/NextJs-000000?style=flat&logo=nextdotjs&logoColor=ffffff)
+![Static Badge](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=ffffff)
+![Static Badge](https://img.shields.io/badge/Tailwind%20CSS-06B6D4?style=flat&logo=tailwindcss&logoColor=ffffff)
 
-## Learn More
+</div>
 
-To learn more about Next.js, take a look at the following resources:
+# ✉️ Contact
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- E-mail address: reyesjrondon@gmail.com
+- [Portfolio](https://www.reyesrondon.dev/en)
+- [Linkedin](https://www.linkedin.com/in/reyes-rondon/?locale=en_US)
