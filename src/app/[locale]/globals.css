@@ -6,6 +6,10 @@
   --color: #65a30d;
 }
 
+.dark {
+  --color: red;
+}
+
 html {
   scroll-behavior: smooth;
 }

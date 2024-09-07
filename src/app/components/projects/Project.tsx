@@ -54,20 +54,14 @@ export const Project = () => {
       ],
     },
     {
-      color: dict("img_detector_color"),
-      title: "Image Color Detector",
-      desc: dict("img_detector_text"),
-      img: dict("img_detector_img"),
-      path: dict("img_detector_path"),
+      color: dict("dev_freebies_color"),
+      title: "Dev Freebies",
+      desc: dict("dev_freebies_text"),
+      img: dict("dev_freebies_img"),
+      path: dict("dev_freebies_path"),
       level: "Frontend",
-      github: dict("img_detector_git"),
+      github: dict("dev_freebies_git"),
       icons: [
-        {
-          path: "/icons/react.svg",
-          title: "React",
-          alt: "React logo",
-          color: false,
-        },
         {
           path: "/icons/typescript.svg",
           title: "TypeScript",
@@ -75,10 +69,22 @@ export const Project = () => {
           color: false,
         },
         {
+          path: "/icons/nextdotjs.svg",
+          title: "Next.Js",
+          alt: "Next.Js logo",
+          color: true,
+        },
+        {
           path: "/icons/tailwindcss.svg",
           title: "Tailwind CSS",
           alt: "Tailwind CSS logo",
           color: false,
+        },
+        {
+          path: "/icons/shadcnui.svg",
+          title: "Shadcn/ui",
+          alt: "Shadcn/ui logo",
+          color: true,
         },
       ],
     },
@@ -107,6 +113,35 @@ export const Project = () => {
           path: "/icons/themoviedatabase.svg",
           title: "The Movie Database",
           alt: "The Movie Database logo",
+          color: true,
+        },
+      ],
+    },
+    {
+      color: dict("img_detector_color"),
+      title: "Image Color Detector",
+      desc: dict("img_detector_text"),
+      img: dict("img_detector_img"),
+      path: dict("img_detector_path"),
+      level: "Frontend",
+      github: dict("img_detector_git"),
+      icons: [
+        {
+          path: "/icons/react.svg",
+          title: "React",
+          alt: "React logo",
+          color: false,
+        },
+        {
+          path: "/icons/typescript.svg",
+          title: "TypeScript",
+          alt: "TypeScript logo",
+          color: false,
+        },
+        {
+          path: "/icons/tailwindcss.svg",
+          title: "Tailwind CSS",
+          alt: "Tailwind CSS logo",
           color: false,
         },
       ],
@@ -127,19 +162,30 @@ export const Project = () => {
             <div
               style={
                 {
-                  "--color": project.color,
+                  "--color": project.color === "#ffffff" ? "" : project.color,
                 } as React.CSSProperties
               }
               key={i}
-              className="relative inline-flex overflow-hidden rounded-lg p-[1px] shadow-drop-center hover:scale-105 ease-in-out duration-500"
+              className={`relative inline-flex overflow-hidden rounded-lg p-[1px] hover:scale-105 ease-in-out duration-500 ${
+                project.color === "#ffffff"
+                  ? "hover:shadow-[0_0_15px_0_rgb(0,0,0)] dark:hover:shadow-[0_0_15px_0_rgb(255,255,255)]"
+                  : "shadow-drop-center"
+              }`}
             >
               <div
-                style={{borderColor: project.color}}
-                className=" block rounded-lg shadow-secondary-1 border bg-[#E3E6E8] dark:bg-[#0D131E] min-h-3.5 relative"
+                style={{
+                  borderColor: project.color === "#ffffff" ? "" : project.color,
+                }}
+                className={`block rounded-lg shadow-secondary-1 border bg-[#E3E6E8] dark:bg-[#0D131E] min-h-3.5 relative ${
+                  project.color === "#ffffff" &&
+                  "border-black dark:border-white"
+                }`}
               >
                 <span
                   style={{backgroundColor: project.color}}
-                  className="absolute p-1 m-2 rounded-lg text-white"
+                  className={`${
+                    project.color === "#ffffff" ? "text-black" : "text-white"
+                  } absolute p-1 m-2 rounded-lg`}
                 >
                   {project.level}
                 </span>
@@ -165,10 +211,14 @@ export const Project = () => {
                   />
                 </Link>
                 <div className="p-5">
-                  <Link href={project.path} className="flex">
+                  <Link href={project.path} className="flex" target="_blank">
                     <h5
-                      style={{color: project.color}}
-                      className="mb-2 text-base md:text-xl leading-tight text-lime-600 font-bold"
+                      style={{
+                        color: project.color,
+                      }}
+                      className={`mb-2 text-base md:text-xl leading-tight text-lime-600 font-bold ${
+                        project.color === "#ffffff" && "invert dark:invert-0"
+                      }`}
                     >
                       {project.title}
                     </h5>

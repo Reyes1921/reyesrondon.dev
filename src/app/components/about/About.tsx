@@ -16,7 +16,7 @@ export const About = () => {
           <Image
             width={150}
             height={150}
-            src="/reyes-rondon.webp"
+            src="/profile/reyes-rondon.webp"
             alt="Reyes Rondon"
             className="rounded-full border-4 border-lime-600 md:mr-6 w-2/5 md:w-44"
           />
