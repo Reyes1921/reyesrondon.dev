@@ -8,7 +8,7 @@ Sitio web personal
 ## 👨‍💻 Tecnologías utilizadas
 
 - [**React 18**](https://react.dev/) - La biblioteca para interfaces de usuario nativas y web.
-- [**Next.js 14**](https://nextjs.org/) - El framework React para la Web.
+- [**Next.js 14**](https://nextjs.org/) - El framework de React para la Web.
 - [**TypeScript**](https://www.typescriptlang.org/) - TypeScript es un lenguaje de programación fuertemente tipado que se basa en JavaScript.
 - [**Tailwindcss**](https://tailwindcss.com/) - Framework de CSS para el diseño de páginas web.
 - [**next-intl**](https://next-intl-docs.vercel.app/) - Internacionalización de Next.js

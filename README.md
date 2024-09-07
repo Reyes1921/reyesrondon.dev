@@ -8,7 +8,7 @@ Personal web site!
 ## 👨‍💻 Technologies used
 
 - [**React 18**](https://react.dev/) - The library for web and native user interfaces.
-- [**Next.js 14**](https://nextjs.org/) - The React Framework for the Web
+- [**Next.js 14**](https://nextjs.org/) - The React Framework for the Web.
 - [**TypeScript**](https://www.typescriptlang.org/) - TypeScript is a strongly typed programming language that builds on JavaScript.
 - [**Tailwindcss**](https://tailwindcss.com/) - A utility-first CSS framework.
 - [**next-intl**](https://next-intl-docs.vercel.app/) - Internationalization for Next.js
