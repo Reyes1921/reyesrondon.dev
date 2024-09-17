@@ -12,6 +12,10 @@ export const Nav = () => {
       path: dict("projects_path"),
       title: dict("projects"),
     },
+    // {
+    //   path: dict("wordpress_path"),
+    //   title: dict("wordpress"),
+    // },
     {
       path: dict("about_path"),
       title: dict("about"),

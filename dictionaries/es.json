@@ -13,7 +13,9 @@
     "projects": "Proyectos",
     "projects_path": "es/#projects",
     "about": "Sobre mi",
-    "about_path": "es/#about"
+    "about_path": "es/#about",
+    "wordpress": "WordPress",
+    "wordpress_path": "es/#wordpress"
   },
   "Intro": {
     "level": "Ingeniero en Informática",

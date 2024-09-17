@@ -1,4 +1,11 @@
-import {About, Experiencie, Intro, Project, Skills} from "../components"
+import {
+  About,
+  Experiencie,
+  Intro,
+  Project,
+  ProjectWordpress,
+  Skills,
+} from "../components"
 export default function Home() {
   return (
     <main className="flex items-center justify-center min-h-screen w-full animated fadeIn">
@@ -6,6 +13,7 @@ export default function Home() {
         <Intro />
         <Experiencie />
         <Project />
+        <ProjectWordpress />
         <Skills />
         <About />
       </div>
