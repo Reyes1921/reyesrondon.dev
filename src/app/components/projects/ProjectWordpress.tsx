@@ -1,6 +1,5 @@
 "use client"
 import Image from "next/image"
-import Link from "next/link"
 import {useTranslations} from "next-intl"
 
 export const ProjectWordpress = () => {
@@ -269,7 +268,11 @@ export const ProjectWordpress = () => {
                     alt="github logo"
                   />
                 </Link> */}
-                <Link href={project.path} target="_blank">
+                <a
+                  href={project.path}
+                  target="_blank"
+                  rel="noopener noreferrer nofollow"
+                >
                   <Image
                     className="rounded-t-lg w-full"
                     width={400}
@@ -277,9 +280,14 @@ export const ProjectWordpress = () => {
                     src={project.img}
                     alt={project.title}
                   />
-                </Link>
+                </a>
                 <div className="p-5">
-                  <Link href={project.path} className="flex" target="_blank">
+                  <a
+                    href={project.path}
+                    className="flex"
+                    target="_blank"
+                    rel="noopener noreferrer nofollow"
+                  >
                     <h5
                       style={{
                         color: project.color,
@@ -290,7 +298,7 @@ export const ProjectWordpress = () => {
                     >
                       {project.title}
                     </h5>
-                  </Link>
+                  </a>
 
                   {/* <p className="mb-4 text-sm md:text-base text-black dark:text-[#ffffffb5]">
                     {project.desc}

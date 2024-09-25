@@ -1,6 +1,5 @@
 "use client"
 import Image from "next/image"
-import Link from "next/link"
 import {useTranslations} from "next-intl"
 
 export const Project = () => {
@@ -189,10 +188,11 @@ export const Project = () => {
                 >
                   {project.level}
                 </span>
-                <Link
+                <a
                   target="_blank"
                   href={project.github}
                   className="absolute right-0 m-2 hover:scale-110 hover:opacity-70 inline-block"
+                  rel="noopener noreferrer nofollow"
                 >
                   <Image
                     width={25}
@@ -200,8 +200,12 @@ export const Project = () => {
                     src="/icons/github.svg"
                     alt="github logo"
                   />
-                </Link>
-                <Link href={project.path} target="_blank">
+                </a>
+                <a
+                  href={project.path}
+                  target="_blank"
+                  rel="noopener noreferrer nofollow"
+                >
                   <Image
                     className="rounded-t-lg w-full"
                     width={400}
@@ -209,9 +213,14 @@ export const Project = () => {
                     src={project.img}
                     alt={project.title}
                   />
-                </Link>
+                </a>
                 <div className="p-5">
-                  <Link href={project.path} className="flex" target="_blank">
+                  <a
+                    href={project.path}
+                    className="flex"
+                    target="_blank"
+                    rel="noopener noreferrer nofollow"
+                  >
                     <h5
                       style={{
                         color: project.color,
@@ -222,7 +231,7 @@ export const Project = () => {
                     >
                       {project.title}
                     </h5>
-                  </Link>
+                  </a>
 
                   <p className="mb-4 text-sm md:text-base text-black dark:text-[#ffffffb5]">
                     {project.desc}
