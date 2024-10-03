@@ -37,6 +37,12 @@ export const icons = () => {
       color: true,
     },
     {
+      path: "/icons/jquery.svg",
+      title: "jQuery",
+      alt: "jquery logo",
+      color: true,
+    },
+    {
       path: "/icons/tailwindcss.svg",
       title: "Tailwind CSS",
       alt: "Tailwind CSS logo",

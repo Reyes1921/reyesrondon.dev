@@ -24,11 +24,11 @@ export const Skills = () => {
             Frontend
           </h2>
           <Atropos className="my-atropos mt-5 " rotateTouch="scroll-y">
-            <div className="grid md:flex grid-cols-3 md:flex-row justify-around items-center backdrop-brightness-75 border bg-[#E3E6E8] dark:bg-[#0D131E] border-lime-600 rounded-xl">
+            <div className="grid md:flex grid-cols-3 md:flex-row justify-around items-center backdrop-brightness-75 border bg-[#E3E6E8] dark:bg-[#0D131E] border-lime-600 rounded-xl overflow-hidden">
               {frontend.map((icon) => (
                 <div
                   key={icon.title}
-                  className="flex flex-col flex-justify items-center p-4 text-black dark:text-white"
+                  className="flex flex-col flex-justify items-center p-3 text-black dark:text-white"
                 >
                   <Image
                     width={150}
