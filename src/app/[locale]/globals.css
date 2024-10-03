@@ -27,6 +27,7 @@ html {
 .shadow-drop-center:hover {
   animation: shadow-drop-center 0.4s linear both;
 }
+
 @keyframes shadow-drop-center {
   0% {
     box-shadow: 0 0 0 0 transparent;
@@ -72,7 +73,7 @@ html {
 /* Firefox */
 html {
   scrollbar-width: auto;
-  scrollbar-color: #65a30d #111827;
+  scrollbar-color: #65a30d #111827 !important;
 }
 
 /* Chrome, Edge, and Safari */
