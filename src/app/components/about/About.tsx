@@ -24,15 +24,15 @@ export const About = () => {
         <p className="text-base md:text-xl text-center md:text-left tracking-tight text-black dark:text-[#ffffffb5] ">
           {dict("text_1")}
           <span className=" text-lime-600"> React</span>,
-          <span className=" text-lime-600"> PHP</span>,
-          <span className=" text-lime-600"> MySQL</span> {dict("text_2")}
+          <span className=" text-lime-600"> PHP</span> {dict("text_2")}
           <span className=" text-lime-600"> WordPress</span>, {dict("text_3")}
           <span className=" text-lime-600"> HTML</span>,
           <span className=" text-lime-600"> CSS</span>,
           <span className=" text-lime-600"> JavaScript</span>,
+          <span className=" text-lime-600"> PHP</span>,
           <span className=" text-lime-600"> MySQL</span>,
-          <span className=" text-lime-600"> React</span>,
-          <span className=" text-lime-600"> TypeScript</span> {dict("text_4")}
+          <span className=" text-lime-600"> React</span> {dict("text_2")}
+          <span className=" text-lime-600"> TypeScript</span>. {dict("text_4")}
         </p>
       </div>
     </article>

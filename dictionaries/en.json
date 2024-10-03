@@ -1,7 +1,7 @@
 {
   "Metadata": {
     "title": "Reyes Rondón Web Developer | React, Next.Js, NodeJs, TypeScript",
-    "description": "I am Reyes Rondón, Computer Engineer with more than 4 years of experience developing and maintaining web applications with React, PHP and WordPress."
+    "description": "I am Reyes Rondón, Software Engineer with more than 5 years of experience developing and maintaining web applications with React, PHP and WordPress."
   },
   "Header": {
     "path": "/es",
@@ -18,7 +18,7 @@
     "wordpress_path": "en/#wordpress"
   },
   "Intro": {
-    "level": "Computer Engineer",
+    "level": "Software Engineer",
     "text": "I have more than 5 years of experience developing and maintaining web applications with",
     "text_1": "and"
   },
@@ -35,11 +35,10 @@
     "text_7": " as well as the following technologies:",
     "lvl_2": "Frontend Developer",
     "dates_2": "January 2020 – August 2022",
-    "text_8": "Developed 6 web pages with ",
-    "text_9": " Implement practices of ",
-    "text_10": " for the reduction of errors in the development of web pages with",
-    "text_11": " Lead the performance improvement of 5 websites developed with",
-    "text_12": " reducing their loading times by up to 40%."
+    "text_8": "Developed 5 web pages with ",
+    "text_9": " Implementing ",
+    "text_10": " for time reduction in the delivery of these products",
+    "text_11": " Lead the performance improvement of these websites by decreasing their load times by up to 40%."
   },
   "Projects": {
     "title": "Projects",
@@ -72,10 +71,10 @@
   },
   "About": {
     "title": "About me",
-    "text_1": "Computer engineer with more than 5 years of experience in the development and maintenance of web applications with",
+    "text_1": "Software Engineer with more than 5 years of experience in the development and maintenance of web applications with",
     "text_2": "and",
     "text_3": "from personal brands to online stores. I have deep knowledge in",
-    "text_4": "most recently, I worked at Wordpress Hilfe & Support Berlin, where I created more than 30 websites."
+    "text_4": "Most recently, I worked at Wordpress Hilfe & Support Berlin, where I created 15 websites from scratch and supported more than 20 with WordPress."
   },
   "Links": {
     "github": "https://github.com/Reyes1921",

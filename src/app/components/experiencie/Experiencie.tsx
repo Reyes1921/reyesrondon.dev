@@ -56,6 +56,7 @@ export const Experiencie = () => {
                 <span className="text-lime-600"> SCRUM</span>
                 {dict("text_7")}
                 <span className="text-lime-600"> HTML</span>,
+                <span className="text-lime-600"> CSS</span>,
                 <span className="text-lime-600"> JavaScript</span>,
                 <span className="text-lime-600"> JQuery</span>,
                 <span className="text-lime-600"> MySQL</span> {dict("text_4")}
@@ -98,14 +99,7 @@ export const Experiencie = () => {
                 <span className="text-lime-600"> Material UI</span>.
                 {dict("text_9")}
                 <span className="text-lime-600"> CI/CD</span>
-                {dict("text_10")}
-                <span className="text-lime-600"> React</span>,
-                <span className="text-lime-600"> TypeScript</span>
-                {dict("text_4")}
-                <span className="text-lime-600"> Tailwind CSS</span>.
-                {dict("text_11")}
-                <span className="text-lime-600"> React</span>
-                {dict("text_12")}
+                {dict("text_10")}.{dict("text_11")}
               </p>
             </div>
             <hr className="bg-lime-600" />

@@ -26,13 +26,13 @@ export const Buttons = () => {
       alt: '"gmail logo',
       color: true,
     },
-    {
-      path: dict("cv"),
-      src: "/readdotcv.svg",
-      title: "CV",
-      alt: '"cv logo',
-      color: true,
-    },
+    // {
+    //   path: dict("cv"),
+    //   src: "/readdotcv.svg",
+    //   title: "CV",
+    //   alt: '"cv logo',
+    //   color: true,
+    // },
   ]
 
   return (

@@ -23,12 +23,12 @@ export const Footer = () => {
       title: "reyesjrondon@gmail.com",
       alt: '"gmail logo',
     },
-    {
-      path: dict("cv"),
-      src: "/readdotcv.svg",
-      title: "CV",
-      alt: '"cv logo',
-    },
+    // {
+    //   path: dict("cv"),
+    //   src: "/readdotcv.svg",
+    //   title: "CV",
+    //   alt: '"cv logo',
+    // },
   ]
   return (
     <footer className="w-full md:max-w-[850px] mx-auto">

@@ -17,8 +17,7 @@ export const Intro = () => {
         </span>
         <p className="text-center md:text-start text-base md:text-xl  text-black dark:text-[#ffffffb5]">
           {dict("text")} <span className="text-lime-600"> React</span>,
-          <span className="text-lime-600"> PHP</span>,
-          <span className="text-lime-600"> MySQL</span> {dict("text_1")}
+          <span className="text-lime-600"> PHP</span> {dict("text_1")}
           <span className="text-lime-600"> WordPress</span>.
         </p>
         <Buttons />
