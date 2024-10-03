@@ -1,7 +1,7 @@
 {
   "Metadata": {
     "title": "Reyes Rondón Desarrolador Web | React, Next.Js, NodeJs, TypeScript.",
-    "description": "Soy Reyes Rondón, Ingeniero en Informática con más de 5 años de experiencia en el desarrollo y mantenimiento de aplicaciones web con React, PHP y WordPress."
+    "description": "Soy Reyes Rondón, Ingeniero en Informática con más de 5 años de experiencia en el desarrollo y mantenimiento de páginas web con React, PHP y WordPress."
   },
   "Header": {
     "path": "/en",
@@ -19,7 +19,7 @@
   },
   "Intro": {
     "level": "Ingeniero en Informática",
-    "text": "Tengo más de 5 años de experiencia en el desarrollo y mantenimiento de aplicaciones web con",
+    "text": "Tengo más de 5 años de experiencia en el desarrollo y mantenimiento de páginas web con",
     "text_1": "y"
   },
   "Experience": {
@@ -35,10 +35,10 @@
     "text_7": " asi como las siguientes tecnologías",
     "lvl_2": "Desarrollador Frontend",
     "dates_2": "Enero 2020 – Agosto 2022",
-    "text_8": "Desarrolle 5 páginas webs con ",
+    "text_8": "Desarrolle 5 páginas web con ",
     "text_9": " Implementando ",
     "text_10": " para la reducción de tiempo en la entrega de las mismas",
-    "text_11": " Lidere la mejora del rendimiento en estos sitios web disminuyendo sus tiempos de carga hasta un 40%."
+    "text_11": " Lidere la mejora del rendimiento en estas páginas web disminuyendo sus tiempos de carga hasta un 40%."
   },
   "Projects": {
     "title": "Proyectos",
@@ -71,7 +71,7 @@
   },
   "About": {
     "title": "Sobre mi",
-    "text_1": "Ingeniero en informática con más de 5 años de experiencia en el desarrollo y mantenimiento de aplicaciones web con",
+    "text_1": "Ingeniero en informática con más de 5 años de experiencia en el desarrollo y mantenimiento de páginas web con",
     "text_2": "y",
     "text_3": "desde marcas personales hasta tiendas online. Tengo profundos conocimientos en",
     "text_4": "Recientemente, trabajé en Wordpress Hilfe & Support Berlin, donde cree 15 páginas web desde cero y le di soporte a más de 20 con WordPress."
