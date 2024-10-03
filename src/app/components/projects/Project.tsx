@@ -175,7 +175,7 @@ export const Project = () => {
                 style={{
                   borderColor: project.color === "#ffffff" ? "" : project.color,
                 }}
-                className={`block rounded-lg shadow-secondary-1 border bg-[#E3E6E8] dark:bg-[#0D131E] min-h-3.5 relative ${
+                className={`block rounded-lg shadow-secondary-1 border-2 bg-[#E3E6E8] dark:bg-[#0D131E] min-h-3.5 relative ${
                   project.color === "#ffffff" &&
                   "border-black dark:border-white"
                 }`}
