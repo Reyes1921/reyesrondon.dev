@@ -31,7 +31,7 @@ export const Experiencie = () => {
             <div className="timeline-end mb-10">
               <div className="text-black dark:text-white">
                 <span className="text-lime-600 text-lg font-black">
-                  Full-Stack WordPress Developer
+                  WordPress Developer
                 </span>
                 <span> - </span>
                 <span className="text-base font-normal">
