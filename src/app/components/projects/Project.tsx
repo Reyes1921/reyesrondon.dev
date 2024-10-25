@@ -171,41 +171,30 @@ export const Project = () => {
                   : "shadow-drop-center"
               }`}
             >
-              <div
-                style={{
-                  borderColor: project.color === "#ffffff" ? "" : project.color,
-                }}
-                className={`block rounded-lg shadow-secondary-1 border-2 bg-[#E3E6E8] dark:bg-[#0D131E] min-h-3.5 relative ${
-                  project.color === "#ffffff" &&
-                  "border-black dark:border-white"
-                }`}
+              <a
+                href={project.path}
+                className="flex"
+                target="_blank"
+                rel="noopener noreferrer nofollow"
               >
-                <span
-                  style={{backgroundColor: project.color}}
-                  className={`${
-                    project.color === "#ffffff" ? "text-black" : "text-white"
-                  } absolute p-1 m-2 rounded-lg`}
+                <div
+                  style={{
+                    borderColor:
+                      project.color === "#ffffff" ? "" : project.color,
+                  }}
+                  className={`block rounded-lg shadow-secondary-1 border-2 bg-[#E3E6E8] dark:bg-[#0D131E] min-h-3.5 relative ${
+                    project.color === "#ffffff" &&
+                    "border-black dark:border-white"
+                  }`}
                 >
-                  {project.level}
-                </span>
-                <a
-                  target="_blank"
-                  href={project.github}
-                  className="absolute right-0 m-2 hover:scale-110 hover:opacity-70 inline-block"
-                  rel="noopener noreferrer nofollow"
-                >
-                  <Image
-                    width={25}
-                    height={25}
-                    src="/icons/github.svg"
-                    alt="github logo"
-                  />
-                </a>
-                <a
-                  href={project.path}
-                  target="_blank"
-                  rel="noopener noreferrer nofollow"
-                >
+                  <span
+                    style={{backgroundColor: project.color}}
+                    className={`${
+                      project.color === "#ffffff" ? "text-black" : "text-white"
+                    } absolute p-1 m-2 rounded-lg`}
+                  >
+                    {project.level}
+                  </span>
                   <Image
                     className="rounded-t-lg w-full"
                     width={400}
@@ -213,14 +202,8 @@ export const Project = () => {
                     src={project.img}
                     alt={project.title}
                   />
-                </a>
-                <div className="p-5">
-                  <a
-                    href={project.path}
-                    className="flex"
-                    target="_blank"
-                    rel="noopener noreferrer nofollow"
-                  >
+
+                  <div className="p-5">
                     <h5
                       style={{
                         color: project.color,
@@ -231,27 +214,40 @@ export const Project = () => {
                     >
                       {project.title}
                     </h5>
-                  </a>
 
-                  <p className="mb-4 text-sm md:text-base text-black dark:text-[#ffffffb5]">
-                    {project.desc}
-                  </p>
-                  <div className="flex justify-start">
-                    {project.icons.map((icon) => (
-                      <Image
-                        key={icon.title}
-                        width={70}
-                        height={70}
-                        src={icon.path}
-                        className={`w-9 md:w-10 color-[#F7DF1E] p-2 ${
-                          icon.color ? "invert" : "invert-0"
-                        } dark:invert-0`}
-                        alt={icon.alt}
-                      />
-                    ))}
+                    <p className="mb-4 text-sm md:text-base text-black dark:text-[#ffffffb5]">
+                      {project.desc}
+                    </p>
+                    <div className="flex justify-start">
+                      {project.icons.map((icon) => (
+                        <Image
+                          key={icon.title}
+                          width={70}
+                          height={70}
+                          src={icon.path}
+                          className={`w-9 md:w-10 color-[#F7DF1E] p-2 ${
+                            icon.color ? "invert" : "invert-0"
+                          } dark:invert-0`}
+                          alt={icon.alt}
+                        />
+                      ))}
+                    </div>
                   </div>
                 </div>
-              </div>
+              </a>
+              <a
+                target="_blank"
+                href={project.github}
+                className="absolute right-0 m-2 hover:scale-110 hover:opacity-70 inline-block"
+                rel="noopener noreferrer nofollow"
+              >
+                <Image
+                  width={25}
+                  height={25}
+                  src="/icons/github.svg"
+                  alt="github logo"
+                />
+              </a>
             </div>
           ))}
         </div>
