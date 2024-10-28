@@ -46,11 +46,11 @@ export const Experiencie = () => {
                 {dict("text_1")}
                 <span className="text-lime-600"> WooCommerce</span>,
                 {dict("text_2")}
-                <span className="text-lime-600"> Nextcloud</span>,
+                <span className="text-lime-600"> Nextcloud</span>
                 {dict("text_3")}
                 <span className="text-lime-600"> Elementor</span>
                 {dict("text_4")}
-                <span className="text-lime-600"> Elementor Pro</span>,
+                <span className="text-lime-600"> Elementor Pro</span>
                 {dict("text_5")}
                 <span className="text-lime-600"> CI/CD</span> {dict("text_6")}
                 <span className="text-lime-600"> SCRUM</span>
