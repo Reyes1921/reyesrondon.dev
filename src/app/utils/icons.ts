@@ -162,6 +162,12 @@ export const icons = () => {
       alt: "WordPress logo",
       color: false,
     },
+    {
+      path: "/icons/redux.svg",
+      title: "Redux",
+      alt: "Redux logo",
+      color: true,
+    },
   ]
   return {frontend, backend, bd, testing, tools}
 }
