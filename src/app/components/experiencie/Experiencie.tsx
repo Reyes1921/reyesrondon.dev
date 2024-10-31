@@ -13,7 +13,7 @@ export const Experiencie = () => {
         </h2>
         <ul className="timeline timeline-snap-icon timeline-compact timeline-vertical flex flex-start">
           <li>
-            <hr className="bg-lime-600" />
+            <hr className="bg-primary" />
             <div className="timeline-middle">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -30,13 +30,13 @@ export const Experiencie = () => {
             </div>
             <div className="timeline-end mb-10">
               <div className="text-black dark:text-white">
-                <span className="text-lime-600 text-lg font-black">
+                <span className="text-primary text-lg font-black">
                   WordPress Developer
                 </span>
                 <span> - </span>
                 <span className="text-base font-normal">
                   Wordpress Hilfe & Support Berlin,
-                  <span className="text-lime-600">{dict("remote")}</span>
+                  <span className="text-primary">{dict("remote")}</span>
                 </span>
               </div>
               <time className="font-mono italic text-black dark:text-white">
@@ -44,30 +44,30 @@ export const Experiencie = () => {
               </time>
               <p className="text-left md:text-start text-base md:text-xl mt-3 text-black dark:text-[#ffffffb5]">
                 {dict("text_1")}
-                <span className="text-lime-600"> WooCommerce</span>,
+                <span className="text-primary"> WooCommerce</span>,
                 {dict("text_2")}
-                <span className="text-lime-600"> Nextcloud</span>
+                <span className="text-primary"> Nextcloud</span>
                 {dict("text_3")}
-                <span className="text-lime-600"> Elementor</span>
+                <span className="text-primary"> Elementor</span>
                 {dict("text_4")}
-                <span className="text-lime-600"> Elementor Pro</span>
+                <span className="text-primary"> Elementor Pro</span>
                 {dict("text_5")}
-                <span className="text-lime-600"> CI/CD</span> {dict("text_6")}
-                <span className="text-lime-600"> SCRUM</span>
+                <span className="text-primary"> CI/CD</span> {dict("text_6")}
+                <span className="text-primary"> SCRUM</span>
                 {dict("text_7")}
-                <span className="text-lime-600"> HTML</span>,
-                <span className="text-lime-600"> CSS</span>,
-                <span className="text-lime-600"> JavaScript</span>,
-                <span className="text-lime-600"> JQuery</span>,
-                <span className="text-lime-600"> MySQL</span> {dict("text_4")}
-                <span className="text-lime-600"> PHP</span>.
+                <span className="text-primary"> HTML</span>,
+                <span className="text-primary"> CSS</span>,
+                <span className="text-primary"> JavaScript</span>,
+                <span className="text-primary"> JQuery</span>,
+                <span className="text-primary"> MySQL</span> {dict("text_4")}
+                <span className="text-primary"> PHP</span>.
               </p>
             </div>
-            <hr className="bg-lime-600" />
+            <hr className="bg-primary" />
           </li>
 
           <li>
-            <hr className="bg-lime-600" />
+            <hr className="bg-primary" />
             <div className="timeline-middle">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -84,7 +84,7 @@ export const Experiencie = () => {
             </div>
             <div className="timeline-end mb-10">
               <div className="text-black dark:text-white">
-                <span className="text-lime-600 text-lg font-black">
+                <span className="text-primary text-lg font-black">
                   {dict("lvl_2")}
                 </span>
                 <span> - </span>
@@ -95,14 +95,14 @@ export const Experiencie = () => {
               </time>
               <p className="text-left md:text-start text-base md:text-xl mt-3 text-black dark:text-[#ffffffb5]">
                 {dict("text_8")}
-                <span className="text-lime-600"> React</span> {dict("text_4")}
-                <span className="text-lime-600"> Material UI</span>.
+                <span className="text-primary"> React</span> {dict("text_4")}
+                <span className="text-primary"> Material UI</span>.
                 {dict("text_9")}
-                <span className="text-lime-600"> CI/CD</span>
+                <span className="text-primary"> CI/CD</span>
                 {dict("text_10")}.{dict("text_11")}
               </p>
             </div>
-            <hr className="bg-lime-600" />
+            <hr className="bg-primary" />
           </li>
         </ul>
       </div>

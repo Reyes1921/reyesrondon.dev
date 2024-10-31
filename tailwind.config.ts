@@ -9,7 +9,11 @@ const config: Config = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        primary: "#44d62c",
+      },
+    },
   },
   plugins: [daisyui],
 }

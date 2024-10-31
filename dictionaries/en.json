@@ -18,9 +18,12 @@
     "wordpress_path": "en/#wordpress"
   },
   "Intro": {
-    "level": "Software Engineer",
-    "text": "I have more than 5 years of experience developing and maintaining websites with",
-    "text_1": "and"
+    "level": "Frontend Developer",
+    "experience": "+5 years of experience.",
+    "text": "from Barquisimeto, Venezuela. Specialized in the development and maintenance of web pages with",
+    "text_1": "and",
+    "engineer": "Software Engineer",
+    "developer": "Web Developer"
   },
   "Experience": {
     "title": "Experience",

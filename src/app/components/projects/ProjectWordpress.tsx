@@ -233,7 +233,7 @@ export const ProjectWordpress = () => {
                 } as React.CSSProperties
               }
               key={i}
-              className={`relative inline-flex overflow-hidden rounded-lg p-[1px] hover:scale-105 ease-in-out duration-500 ${
+              className={`relative inline-flex overflow-hidden rounded-lg p-[1px] hover:scale-105 ease-in-out duration-500 aspect-[401.2/320] md:aspect-[374/300] ${
                 project.color === "#ffffff"
                   ? "hover:shadow-[0_0_15px_0_rgb(0,0,0)] dark:hover:shadow-[0_0_15px_0_rgb(255,255,255)]"
                   : "shadow-drop-center"
@@ -243,6 +243,7 @@ export const ProjectWordpress = () => {
                 href={project.path}
                 target="_blank"
                 rel="noopener noreferrer nofollow"
+                className="aspect-[401.2/320] md:aspect-[374/300]"
               >
                 <div
                   style={{
@@ -255,7 +256,7 @@ export const ProjectWordpress = () => {
                   }`}
                 >
                   <Image
-                    className="rounded-t-lg w-full"
+                    className="rounded-t-lg w-full aspect-[398.2/181.59] md:aspect-[369.2/167.86]"
                     width={400}
                     height={200}
                     src={project.img}
@@ -266,7 +267,7 @@ export const ProjectWordpress = () => {
                       style={{
                         color: project.color,
                       }}
-                      className={`mb-2 text-base md:text-xl leading-tight text-lime-600 font-bold ${
+                      className={`mb-2 text-base md:text-xl leading-tight text-primary font-bold ${
                         project.color === "#ffffff" && "invert dark:invert-0"
                       }`}
                     >

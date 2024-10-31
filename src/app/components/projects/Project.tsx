@@ -208,7 +208,7 @@ export const Project = () => {
                       style={{
                         color: project.color,
                       }}
-                      className={`mb-2 text-base md:text-xl leading-tight text-lime-600 font-bold ${
+                      className={`mb-2 text-base md:text-xl leading-tight text-primary font-bold ${
                         project.color === "#ffffff" && "invert dark:invert-0"
                       }`}
                     >

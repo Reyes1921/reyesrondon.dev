@@ -39,14 +39,14 @@ export const DarkMode = () => {
         alt="Sun Logo"
         width={22}
         height={22}
-        className="hidden dark:flex invert"
+        className="flex dark:hidden"
       />
       <Image
         src="/moon.svg"
         alt="Moon Logo"
         width={22}
         height={22}
-        className="flex dark:hidden"
+        className="hidden dark:flex invert"
       />
     </button>
   )

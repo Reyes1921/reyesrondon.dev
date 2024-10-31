@@ -18,21 +18,21 @@ export const About = () => {
             height={150}
             src="/profile/reyes-rondon.webp"
             alt="Reyes Rondon"
-            className="rounded-full border-4 border-lime-600 md:mr-6 w-2/5 md:w-44"
+            className="rounded-full border-4 border-primary md:mr-6 w-2/5 md:w-44"
           />
         </div>
         <p className="text-base md:text-xl text-center md:text-left tracking-tight text-black dark:text-[#ffffffb5] ">
           {dict("text_1")}
-          <span className=" text-lime-600"> React</span>,
-          <span className=" text-lime-600"> PHP</span> {dict("text_2")}
-          <span className=" text-lime-600"> WordPress</span>, {dict("text_3")}
-          <span className=" text-lime-600"> HTML</span>,
-          <span className=" text-lime-600"> CSS</span>,
-          <span className=" text-lime-600"> JavaScript</span>,
-          <span className=" text-lime-600"> PHP</span>,
-          <span className=" text-lime-600"> MySQL</span>,
-          <span className=" text-lime-600"> React</span> {dict("text_2")}
-          <span className=" text-lime-600"> TypeScript</span>. {dict("text_4")}
+          <span className=" text-primary"> React</span>,
+          <span className=" text-primary"> PHP</span> {dict("text_2")}
+          <span className=" text-primary"> WordPress</span>, {dict("text_3")}
+          <span className=" text-primary"> HTML</span>,
+          <span className=" text-primary"> CSS</span>,
+          <span className=" text-primary"> JavaScript</span>,
+          <span className=" text-primary"> PHP</span>,
+          <span className=" text-primary"> MySQL</span>,
+          <span className=" text-primary"> React</span> {dict("text_2")}
+          <span className=" text-primary"> TypeScript</span>. {dict("text_4")}
         </p>
       </div>
     </article>

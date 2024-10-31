@@ -18,9 +18,12 @@
     "wordpress_path": "es/#wordpress"
   },
   "Intro": {
-    "level": "Ingeniero en Informática",
-    "text": "Tengo más de 5 años de experiencia en el desarrollo y mantenimiento de páginas web con",
-    "text_1": "y"
+    "level": "Desarrollador Frontend",
+    "experience": "+5 años de experiencia.",
+    "text": "de Barquisimeto, Venezuela. Especializado en el desarrollo y mantenimiento de páginas web con",
+    "text_1": "y",
+    "engineer": "Ingeniero en Informática",
+    "developer": "Desarrollador Web"
   },
   "Experience": {
     "title": "Experiencia",
