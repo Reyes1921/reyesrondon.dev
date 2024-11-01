@@ -28,7 +28,7 @@ export const Skills = () => {
               {frontend.map((icon) => (
                 <div
                   key={icon.title}
-                  className="flex flex-col flex-justify items-center p-3 text-black dark:text-white"
+                  className="flex flex-col flex-justify items-center p-2 text-black dark:text-white"
                 >
                   <Image
                     width={150}

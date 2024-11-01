@@ -224,7 +224,7 @@ export const ProjectWordpress = () => {
         >
           WordPress
         </h2>
-        <div className="grid grid-cols md:grid-cols-2 gap-5">
+        <div className="grid grid-cols-2 md:grid-cols-2 gap-5">
           {projects.map((project, i) => (
             <div
               style={
@@ -233,7 +233,7 @@ export const ProjectWordpress = () => {
                 } as React.CSSProperties
               }
               key={i}
-              className={`relative inline-flex overflow-hidden rounded-lg p-[1px] hover:scale-105 ease-in-out duration-500 aspect-auto md:aspect-[374/288] ${
+              className={`relative inline-flex overflow-hidden rounded-lg p-[1px] hover:scale-105 ease-in-out duration-500 md:aspect-[374/300] ${
                 project.color === "#ffffff"
                   ? "hover:shadow-[0_0_15px_0_rgb(0,0,0)] dark:hover:shadow-[0_0_15px_0_rgb(255,255,255)]"
                   : "shadow-drop-center"
@@ -243,14 +243,14 @@ export const ProjectWordpress = () => {
                 href={project.path}
                 target="_blank"
                 rel="noopener noreferrer nofollow"
-                className="aspect-auto md:aspect-[374/288]"
+                className="md:aspect-[374/300]"
               >
                 <div
                   style={{
                     borderColor:
                       project.color === "#ffffff" ? "" : project.color,
                   }}
-                  className={`block rounded-lg shadow-secondary-1 border-2 bg-[#E3E6E8] dark:bg-[#0D131E] min-h-3.5 relative ${
+                  className={`block rounded-lg shadow-secondary-1 border-2 bg-[#E3E6E8] dark:bg-[#0D131E] min-h-3.5 relative md:aspect-[374/300] ${
                     project.color === "#ffffff" &&
                     "border-black dark:border-white"
                   }`}
@@ -267,14 +267,14 @@ export const ProjectWordpress = () => {
                       style={{
                         color: project.color,
                       }}
-                      className={`mb-2 text-base md:text-xl leading-tight text-primary font-bold ${
+                      className={`mb-2 text-sm md:text-xl leading-tight text-primary font-bold ${
                         project.color === "#ffffff" && "invert dark:invert-0"
                       }`}
                     >
                       {project.title}
                     </h5>
 
-                    <div className="flex justify-start">
+                    <div className="flex justify-start flex-wrap">
                       {project.icons.map((icon) => (
                         <Image
                           key={icon.title}
