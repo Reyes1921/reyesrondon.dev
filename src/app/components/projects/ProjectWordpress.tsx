@@ -155,64 +155,64 @@ export const ProjectWordpress = () => {
         },
       ],
     },
-    {
-      color: "#ffffff",
-      title: "Metropol",
-      img: "/wordpress/metropol.webp",
-      path: "https://metropol-verlag.de/",
-      icons: [
-        {
-          path: "/wordpress/wordpress.svg",
-          title: "Wordpress",
-          alt: "Wordpress logo",
-          color: true,
-        },
-        {
-          path: "/wordpress/elementor.svg",
-          title: "Elementor",
-          alt: "Elementor logo",
-          color: false,
-        },
-        {
-          path: "/wordpress/woocommerce.svg",
-          title: "Woocommerce",
-          alt: "Woocommerce logo",
-          color: false,
-        },
-        {
-          path: "/wordpress/wprocket.svg",
-          title: "wprocket",
-          alt: "wprocket logo",
-          color: true,
-        },
-      ],
-    },
-    {
-      color: "#e3ae3c",
-      title: "Heilpraktikerin",
-      img: "/wordpress/heilpraktikerin.webp",
-      path: "https://heilpraktikerinhofmann.de/",
-      icons: [
-        {
-          path: "/wordpress/wordpress.svg",
-          title: "Wordpress",
-          alt: "Wordpress logo",
-          color: true,
-        },
-        {
-          path: "/wordpress/elementor.svg",
-          title: "Elementor",
-          alt: "Elementor logo",
-          color: false,
-        },
-        {
-          path: "/wordpress/wprocket.svg",
-          title: "wprocket",
-          alt: "wprocket logo",
-          color: true,
-        },
-      ],
-    },
+    // {
+    //   color: "#ffffff",
+    //   title: "Metropol",
+    //   img: "/wordpress/metropol.webp",
+    //   path: "https://metropol-verlag.de/",
+    //   icons: [
+    //     {
+    //       path: "/wordpress/wordpress.svg",
+    //       title: "Wordpress",
+    //       alt: "Wordpress logo",
+    //       color: true,
+    //     },
+    //     {
+    //       path: "/wordpress/elementor.svg",
+    //       title: "Elementor",
+    //       alt: "Elementor logo",
+    //       color: false,
+    //     },
+    //     {
+    //       path: "/wordpress/woocommerce.svg",
+    //       title: "Woocommerce",
+    //       alt: "Woocommerce logo",
+    //       color: false,
+    //     },
+    //     {
+    //       path: "/wordpress/wprocket.svg",
+    //       title: "wprocket",
+    //       alt: "wprocket logo",
+    //       color: true,
+    //     },
+    //   ],
+    // },
+    // {
+    //   color: "#e3ae3c",
+    //   title: "Heilpraktikerin",
+    //   img: "/wordpress/heilpraktikerin.webp",
+    //   path: "https://heilpraktikerinhofmann.de/",
+    //   icons: [
+    //     {
+    //       path: "/wordpress/wordpress.svg",
+    //       title: "Wordpress",
+    //       alt: "Wordpress logo",
+    //       color: true,
+    //     },
+    //     {
+    //       path: "/wordpress/elementor.svg",
+    //       title: "Elementor",
+    //       alt: "Elementor logo",
+    //       color: false,
+    //     },
+    //     {
+    //       path: "/wordpress/wprocket.svg",
+    //       title: "wprocket",
+    //       alt: "wprocket logo",
+    //       color: true,
+    //     },
+    //   ],
+    // },
   ]
 
   return (
@@ -224,7 +224,7 @@ export const ProjectWordpress = () => {
         >
           WordPress
         </h2>
-        <div className="grid grid-cols-2 md:grid-cols-2 gap-5">
+        <div className="grid grid-cols md:grid-cols-2 gap-5">
           {projects.map((project, i) => (
             <div
               style={
@@ -267,7 +267,7 @@ export const ProjectWordpress = () => {
                       style={{
                         color: project.color,
                       }}
-                      className={`mb-2 text-sm md:text-xl leading-tight text-primary font-bold ${
+                      className={`mb-2 text-base md:text-xl leading-tight text-primary font-bold ${
                         project.color === "#ffffff" && "invert dark:invert-0"
                       }`}
                     >

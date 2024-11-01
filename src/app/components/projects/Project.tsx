@@ -156,7 +156,7 @@ export const Project = () => {
         >
           {dict("title")}
         </h2>
-        <div className="grid grid-cols-2 md:grid-cols-2 gap-5">
+        <div className="grid grid-cols md:grid-cols-2 gap-5">
           {projects.map((project, i) => (
             <div
               style={
@@ -196,7 +196,7 @@ export const Project = () => {
                     {project.level}
                   </span>
                   <Image
-                    className="rounded-t-lg w-full aspect-video md:aspect-auto"
+                    className="rounded-t-lg w-full aspect-video"
                     width={400}
                     height={200}
                     src={project.img}
@@ -208,14 +208,14 @@ export const Project = () => {
                       style={{
                         color: project.color,
                       }}
-                      className={`mb-2 text-sm md:text-xl leading-tight text-primary font-bold ${
+                      className={`mb-2 text-base md:text-xl leading-tight text-primary font-bold ${
                         project.color === "#ffffff" && "invert dark:invert-0"
                       }`}
                     >
                       {project.title}
                     </h5>
 
-                    <p className="mb-4 text-xs md:text-base text-black dark:text-[#ffffffb5]">
+                    <p className="mb-4 text-sm md:text-base text-black dark:text-[#ffffffb5]">
                       {project.desc}
                     </p>
                     <div className="flex justify-start flex-wrap">
