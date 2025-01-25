@@ -16,7 +16,7 @@ export default function Home() {
         <Project />
         <ProjectWordpress />
         <Skills />
-        <Blog />
+        {/* <Blog /> */}
         <About />
       </div>
     </main>
