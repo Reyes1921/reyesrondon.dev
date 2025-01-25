@@ -204,7 +204,7 @@ export const Project = () => {
                   />
 
                   <div className="p-5">
-                    <h5
+                    <h3
                       style={{
                         color: project.color,
                       }}
@@ -213,7 +213,7 @@ export const Project = () => {
                       }`}
                     >
                       {project.title}
-                    </h5>
+                    </h3>
 
                     <p className="mb-4 text-sm md:text-base text-black dark:text-[#ffffffb5]">
                       {project.desc}

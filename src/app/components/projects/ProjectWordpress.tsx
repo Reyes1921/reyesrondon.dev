@@ -263,7 +263,7 @@ export const ProjectWordpress = () => {
                     alt={project.title}
                   />
                   <div className="p-5">
-                    <h5
+                    <h3
                       style={{
                         color: project.color,
                       }}
@@ -272,7 +272,7 @@ export const ProjectWordpress = () => {
                       }`}
                     >
                       {project.title}
-                    </h5>
+                    </h3>
 
                     <div className="flex justify-start flex-wrap">
                       {project.icons.map((icon) => (
