@@ -31,7 +31,7 @@ export const Footer = () => {
     // },
   ]
   return (
-    <footer className="w-full md:max-w-[850px] mx-auto">
+    <footer className="w-full md:max-w-[950px] mx-auto">
       <div className="container flex justify-between items-center p-8 pt-0">
         <div className="flex">
           {icons.map((icon) => (

@@ -9,7 +9,7 @@ export const Header = () => {
 
   return (
     <header className="w-full fixed top-0 left-0 z-20 py-3 md:py-5 backdrop-blur-sm bg-[#67676718] dark:bg-[#67676718]">
-      <div className="flex justify-center items-center md:max-w-[850px] mx-auto px-10">
+      <div className="flex justify-center items-center md:max-w-[950px] mx-auto px-10">
         <nav className="mx-auto">
           <Nav />
         </nav>

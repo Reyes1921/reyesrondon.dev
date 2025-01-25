@@ -8,9 +8,9 @@ export const Intro = () => {
     <article className="flex items-center justify-center flex-col-reverse md:flex-row">
       <div className="px-10 py-5 md:w-11/12 text-center mx-auto">
         <h1 className="text-3xl md:text-5xl pb-2 font-bold text-center md:text-left main-heading text-black dark:text-white">
-          <span className="text-primary">{"<"} </span>
+          {/* <span className="text-primary">{"<"} </span> */}
           Reyes Rondón
-          <span className="text-primary"> {"/>"}</span>
+          {/* <span className="text-primary"> {"/>"}</span> */}
         </h1>
 
         <div className="flex items-center mt-5 mb-5 justify-center md:justify-start">
