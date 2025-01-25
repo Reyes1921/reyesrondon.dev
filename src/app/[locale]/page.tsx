@@ -1,6 +1,6 @@
 import {
   About,
-  Blog,
+  // Blog,
   Experiencie,
   Intro,
   Project,

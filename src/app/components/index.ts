@@ -1,5 +1,5 @@
 export {About} from "./about/About"
-export {Blog} from "./blog/Blog"
+// export {Blog} from "./blog/Blog"
 export {Buttons} from "./intro/Buttons"
 export {DarkMode} from "./header/DarkMode"
 export {Experiencie} from "./experiencie/Experiencie"

@@ -18,7 +18,7 @@ export async function generateMetadata({params}: RootMetadata) {
       icon: "/favicon.ico",
     },
     alternates: {
-      canonical: "http://reyesrondon.vercel.app/",
+      canonical: "https://www.reyesrondon.dev/",
     },
   }
 }
