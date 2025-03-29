@@ -196,7 +196,7 @@ export const Project = () => {
                     {project.level}
                   </span>
                   <Image
-                    className="rounded-t-lg w-full aspect-video"
+                    className="rounded-t-lg w-full aspect-video object-cover"
                     width={400}
                     height={200}
                     src={project.img}

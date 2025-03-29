@@ -20,6 +20,18 @@ export async function generateMetadata({params}: RootMetadata) {
     alternates: {
       canonical: "https://www.reyesrondon.dev/",
     },
+    openGraph: {
+      title: t("title_og"),
+      description: t("description_og"),
+      images: [
+        {
+          url: "https://www.reyesrondon.dev/_next/image?url=%2Fprofile%2Freyes-rondon.webp&w=384&q=75",
+          width: 1200,
+          height: 630,
+          alt: "Reyes Rondón",
+        },
+      ],
+    },
   }
 }
 

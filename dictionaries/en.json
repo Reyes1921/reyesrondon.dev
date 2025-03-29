@@ -1,7 +1,9 @@
 {
   "Metadata": {
     "title": "Reyes Rondón Web Developer | React, Next.Js, NodeJs, TypeScript",
-    "description": "I am Reyes Rondón, Software Engineer with more than 5 years of experience developing and maintaining websites with React, PHP and WordPress."
+    "description": "I am Reyes Rondón, Software Engineer with more than 5 years of experience developing and maintaining websites with React, PHP and WordPress.",
+    "title_og": "Reyes Rondón Web Developer",
+    "description_og": "I am Reyes Rondón, Software Engineer with more than 5 years of experience developing and maintaining websites with React, PHP and WordPress."
   },
   "Header": {
     "path": "/es",
