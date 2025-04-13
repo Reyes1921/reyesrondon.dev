@@ -145,6 +145,12 @@ export const icons = () => {
       color: false,
     },
     {
+      path: "/icons/wordpress.svg",
+      title: "WordPress",
+      alt: "WordPress logo",
+      color: false,
+    },
+    {
       path: "/icons/npm.svg",
       title: "npm",
       alt: "npm logo",
@@ -157,9 +163,9 @@ export const icons = () => {
       color: true,
     },
     {
-      path: "/icons/wordpress.svg",
-      title: "WordPress",
-      alt: "WordPress logo",
+      path: "/icons/figma.svg",
+      title: "Figma",
+      alt: "Figma logo",
       color: false,
     },
     {
