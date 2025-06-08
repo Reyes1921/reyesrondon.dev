@@ -4,6 +4,7 @@ import {getMessages, getTranslations} from "next-intl/server"
 import {cookies} from "next/headers"
 import {Footer, Header} from "../components"
 import "./globals.css"
+import {GoogleTagManager} from "@next/third-parties/google"
 interface RootMetadata {
   params: {locale: string}
 }
@@ -70,6 +71,7 @@ export default async function RootLayout({
   return (
     <html lang={locale} className={theme}>
       <head>
+        <GoogleTagManager gtmId="GTM-TQFZ2GNB" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
