@@ -18,7 +18,7 @@ export async function generateMetadata({params}: RootMetadata) {
       icon: "/favicon.ico",
     },
     alternates: {
-      canonical: "https://www.reyesrondon.dev/",
+      canonical: t("canonical"),
     },
     openGraph: {
       title: t("title_og"),
