@@ -4,7 +4,10 @@
     "description": "Soy Reyes Rondón, Ingeniero en Informática con más de 5 años de experiencia en el desarrollo y mantenimiento de páginas web con React, PHP y WordPress.",
     "title_og": "Reyes Rondón Desarrollador Web",
     "canonical": "https://reyesrondon.com/es",
-    "description_og": "Soy Reyes Rondón, Ingeniero en Informática con más de 5 años de experiencia en el desarrollo y mantenimiento de páginas web con React, PHP y WordPress."
+    "description_og": "Soy Reyes Rondón, Ingeniero en Informática con más de 5 años de experiencia en el desarrollo y mantenimiento de páginas web con React, PHP y WordPress.",
+    "urlSchema": "https://reyesrondon.com/es",
+    "linkedinSchema": "https://www.linkedin.com/in/reyes-rondon/",
+    "jobTitleSchema": "Desarrollador de WordPress"
   },
   "Header": {
     "path": "/en",
