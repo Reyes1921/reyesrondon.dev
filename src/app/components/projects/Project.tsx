@@ -190,8 +190,8 @@ export const Project = () => {
                   <span
                     style={{backgroundColor: project.color}}
                     className={`${
-                      project.color === "#ffffff" ? "text-black" : "text-white"
-                    } absolute p-1 m-2 rounded-lg`}
+                      project.color === "#ffffff" ? "text-black" : "text-black"
+                    } absolute p-1 m-2 rounded-lg font-bold`}
                   >
                     {project.level}
                   </span>
