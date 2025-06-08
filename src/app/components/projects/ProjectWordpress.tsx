@@ -8,6 +8,7 @@ export const ProjectWordpress = () => {
     {
       color: "#ffffff",
       title: "Opaque Retouching",
+      alt: "Opaque Retouching website",
       img: "/wordpress/opaque.webp",
       path: "https://opaque-retouching.com/",
       icons: [
@@ -28,6 +29,7 @@ export const ProjectWordpress = () => {
     {
       color: "#62b5e5",
       title: "Eventrental",
+      alt: "Eventrental website",
       img: "/wordpress/eventrental.webp",
       path: "https://eventrental.de/",
       icons: [
@@ -60,6 +62,7 @@ export const ProjectWordpress = () => {
     {
       color: "#f23534",
       title: "Dtc Factory",
+      alt: "Dtc Factory website",
       img: "/wordpress/dtc-factory.webp",
       path: "https://dtc-factory.de/",
       icons: [
@@ -86,6 +89,7 @@ export const ProjectWordpress = () => {
     {
       color: "#fc7523",
       title: "Culivento Catering",
+      alt: "Culivento Catering website",
       img: "/wordpress/culivento.webp",
       path: "https://culivento.de/",
       icons: [
@@ -106,6 +110,7 @@ export const ProjectWordpress = () => {
     {
       color: "#61ce70",
       title: "Brautmacher",
+      alt: "Brautmacher website",
       img: "/wordpress/brautmacher.webp",
       path: "https://brautmacher.ch/",
       icons: [
@@ -132,6 +137,7 @@ export const ProjectWordpress = () => {
     {
       color: "#0f3c74",
       title: "MEDICOLEO",
+      alt: "MEDICOLEO website",
       img: "/wordpress/medicoleo.webp",
       path: "https://medicoleo.de/",
       icons: [
@@ -260,16 +266,11 @@ export const ProjectWordpress = () => {
                     width={400}
                     height={200}
                     src={project.img}
-                    alt={project.title}
+                    alt={project.alt}
                   />
                   <div className="p-5">
                     <h3
-                      style={{
-                        color: project.color,
-                      }}
-                      className={`mb-2 text-base md:text-xl leading-tight text-primary font-bold ${
-                        project.color === "#ffffff" && "invert dark:invert-0"
-                      }`}
+                      className={`mb-2 text-base md:text-xl leading-tight text-black dark:text-white font-bold`}
                     >
                       {project.title}
                     </h3>

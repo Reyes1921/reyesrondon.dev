@@ -189,9 +189,7 @@ export const Project = () => {
                 >
                   <span
                     style={{backgroundColor: project.color}}
-                    className={`${
-                      project.color === "#ffffff" ? "text-black" : "text-black"
-                    } absolute p-1 m-2 rounded-lg font-bold`}
+                    className={`text-black absolute p-1 m-2 rounded-lg font-bold`}
                   >
                     {project.level}
                   </span>
@@ -205,12 +203,7 @@ export const Project = () => {
 
                   <div className="p-5">
                     <h3
-                      style={{
-                        color: project.color,
-                      }}
-                      className={`mb-2 text-base md:text-xl leading-tight text-primary font-bold ${
-                        project.color === "#ffffff" && "invert dark:invert-0"
-                      }`}
+                      className={`mb-2 text-base md:text-xl leading-tight text-black dark:text-white font-bold`}
                     >
                       {project.title}
                     </h3>
