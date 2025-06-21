@@ -35,32 +35,52 @@ export const Experiencie = () => {
                 </span>
                 <span> - </span>
                 <span className="text-base font-normal">
+                  Addiction Marketing Agency (AMA),
+                  <span className="text-primary">{dict("remote")}</span>
+                </span>
+              </div>
+              <time className="font-mono italic text-black dark:text-white">
+                {dict("dates_3")}
+              </time>
+              <p className="text-left md:text-start text-base md:text-xl mt-3 text-black dark:text-[#ffffffb5]">
+                {dict("text3")}
+              </p>
+            </div>
+            <hr className="bg-primary" />
+          </li>
+
+          <li>
+            <hr className="bg-primary" />
+            <div className="timeline-middle">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+                className="h-5 w-5"
+              >
+                <path
+                  fillRule="evenodd"
+                  d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+                  clipRule="evenodd"
+                />
+              </svg>
+            </div>
+            <div className="timeline-end mb-10">
+              <div className="text-black dark:text-white">
+                <span className="text-primary text-lg font-black">
+                  WordPress Developer
+                </span>
+                <span> - </span>
+                <span className="text-base font-normal">
                   Wordpress Hilfe & Support Berlin,
                   <span className="text-primary">{dict("remote")}</span>
                 </span>
               </div>
               <time className="font-mono italic text-black dark:text-white">
-                {dict("dates_1")}
+                {dict("dates_2")}
               </time>
               <p className="text-left md:text-start text-base md:text-xl mt-3 text-black dark:text-[#ffffffb5]">
-                {dict("text_1")}
-                <span className="text-primary"> WooCommerce</span>,
                 {dict("text_2")}
-                <span className="text-primary"> Nextcloud</span>
-                {dict("text_3")}
-                <span className="text-primary"> Elementor</span>
-                {dict("text_4")}
-                <span className="text-primary"> Elementor Pro</span>
-                {dict("text_5")}
-                <span className="text-primary"> CI/CD</span> {dict("text_6")}
-                <span className="text-primary"> SCRUM</span>
-                {dict("text_7")}
-                <span className="text-primary"> HTML</span>,
-                <span className="text-primary"> CSS</span>,
-                <span className="text-primary"> JavaScript</span>,
-                <span className="text-primary"> JQuery</span>,
-                <span className="text-primary"> MySQL</span> {dict("text_4")}
-                <span className="text-primary"> PHP</span>.
               </p>
             </div>
             <hr className="bg-primary" />
@@ -91,15 +111,10 @@ export const Experiencie = () => {
                 <span className="text-base font-normal">Freelance</span>
               </div>
               <time className="font-mono italic text-black dark:text-white">
-                {dict("dates_2")}
+                {dict("dates_1")}
               </time>
               <p className="text-left md:text-start text-base md:text-xl mt-3 text-black dark:text-[#ffffffb5]">
-                {dict("text_8")}
-                <span className="text-primary"> React</span> {dict("text_4")}
-                <span className="text-primary"> Material UI</span>.
-                {dict("text_9")}
-                <span className="text-primary"> CI/CD</span>
-                {dict("text_10")}.{dict("text_11")}
+                {dict("text_1")}
               </p>
             </div>
             <hr className="bg-primary" />

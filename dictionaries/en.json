@@ -34,20 +34,13 @@
   "Experience": {
     "title": "Experience",
     "remote": " Remote",
-    "dates_1": "January 2020 - January 2025",
-    "text_1": "Adapted and built plugins to extend and add functionality to plugins such as ",
-    "text_2": " file management services such as ",
-    "text_3": " and page editors such as",
-    "text_4": " and",
-    "text_5": " implementing",
-    "text_6": " and methodologies such as ",
-    "text_7": " as well as the following technologies:",
+    "dates_1": "January 2020 – August 2022",
+    "text_1": "Developed 4 websites with React and Material UI. Implementing CI/CD for time reduction in the delivery of these products. Lead the performance improvement of these websites by decreasing their load times by up to 40%. ",
     "lvl_2": "Frontend Developer",
-    "dates_2": "January 2020 – August 2022",
-    "text_8": "Developed 4 websites with ",
-    "text_9": " Implementing ",
-    "text_10": " for time reduction in the delivery of these products",
-    "text_11": " Lead the performance improvement of these websites by decreasing their load times by up to 40%."
+    "dates_2": "January 2020 - January 2025",
+    "text_2": "Adapted and built plugins to extend and add functionality to plugins such as WooCommerce, file management services such as Nextcloud and page editors such as Elementor and Elementor Pro implementing CI/CD and methodologies such as  SCRUM as well as the following technologies: HTML, CSS, JavaScript, JQuery, MySQL and PHP.",
+    "dates_3": "January 2025 – Present",
+    "text3": "I created and maintained custom websites, always prioritizing SEO optimization, functionality and user experience. I developed tailored solutions using custom themes and plugins, and worked with programming languages such as PHP and JavaScript. In addition, I used various page builders, including Elementor, Elementor Pro and Gutenberg. To date, I have completed 5 web projects, including their ongoing maintenance."
   },
   "Projects": {
     "title": "Projects",

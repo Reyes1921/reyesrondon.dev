@@ -34,20 +34,13 @@
   "Experience": {
     "title": "Experiencia",
     "remote": " Remoto",
-    "dates_1": "Enero 2020 - Enero 2025",
-    "text_1": "Adapte y construí plugins para extender y añadir funcionalidades de plugins como ",
-    "text_2": " servicios de gestión de archivos como ",
-    "text_3": " y editores de páginas como",
-    "text_4": " y",
-    "text_5": " implementando ",
-    "text_6": " y metodologías",
-    "text_7": " asi como las siguientes tecnologías",
+    "dates_1": "Enero 2020 – Agosto 2022",
+    "text_1": "Desarrolle 4 páginas web con React y Material UI. Implementando CI/CD para la reducción de tiempo en la entrega de las mismas. Lidere la mejora del rendimiento en estas páginas web disminuyendo sus tiempos de carga hasta un 40%.",
     "lvl_2": "Desarrollador Frontend",
-    "dates_2": "Enero 2020 – Agosto 2022",
-    "text_8": "Desarrolle 4 páginas web con ",
-    "text_9": " Implementando ",
-    "text_10": " para la reducción de tiempo en la entrega de las mismas",
-    "text_11": " Lidere la mejora del rendimiento en estas páginas web disminuyendo sus tiempos de carga hasta un 40%."
+    "dates_2": "Enero 2020 - Enero 2025",
+    "text_2": "Adapte y construí plugins para extender y añadir funcionalidades de plugins como WooCommerce, servicios de gestión de archivos como Nextcloud y editores de páginas como Elementor y Elementor Pro implementando CI/CD y metodologías SCRUM asi como las siguientes tecnologías HTML, CSS, JavaScript, JQuery, MySQL y PHP.",
+    "dates_3": "Enero 2025 – Actualidad",
+    "text3": "Creé y mantuve sitios web personalizados, siempre priorizando la optimización SEO, la funcionalidad y la experiencia del usuario. Desarrollé soluciones adaptadas utilizando temas y plugins a medida, y trabajé con lenguajes de programación como PHP y JavaScript. Además, utilicé diversos editores de páginas, incluyendo Elementor, Elementor Pro y Gutenberg. Hasta la fecha, completé 5 proyectos web, incluyendo su mantenimiento continuo."
   },
   "Projects": {
     "title": "Proyectos",
