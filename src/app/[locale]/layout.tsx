@@ -5,12 +5,19 @@ import {cookies} from "next/headers"
 import {Footer, Header} from "../components"
 import "./globals.css"
 import {GoogleTagManager, GoogleAnalytics} from "@next/third-parties/google"
-interface RootMetadata {
-  params: {locale: string}
+
+interface Props {
+  children: React.ReactNode
+  params: Promise<{locale: string}>
 }
 
-export async function generateMetadata({params}: RootMetadata) {
-  const t = await getTranslations({params, namespace: "Metadata"})
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{locale: string}>
+}) {
+  const {locale} = await params
+  const t = await getTranslations({locale, namespace: "Metadata"})
 
   return {
     title: t("title"),
@@ -38,20 +45,17 @@ export async function generateMetadata({params}: RootMetadata) {
 
 const inter = Nunito({subsets: ["latin"], style: ["normal", "italic"]})
 
-interface RootLayoutProps {
-  children: React.ReactNode
-  params: {locale: string}
-}
+export default async function RootLayout({children, params}: Readonly<Props>) {
+  // 1. Resolvemos la promesa de params
+  const {locale} = await params
 
-export default async function RootLayout({
-  children,
-  params: {locale},
-}: Readonly<RootLayoutProps>) {
-  const dictionaries = await getMessages()
-  const cookieStore = cookies()
+  // 2. Resolvemos las cookies asíncronas y calculamos el theme
+  const cookieStore = await cookies()
   const theme = cookieStore.get("theme")?.value === "dark" ? "dark" : ""
 
-  const dict = await getTranslations("Metadata")
+  // 3. Obtenemos las traducciones y mensajes pasando el locale explícito
+  const dictionaries = await getMessages()
+  const dict = await getTranslations({locale, namespace: "Metadata"})
 
   const jsonLd = {
     "@context": "https://schema.org",
